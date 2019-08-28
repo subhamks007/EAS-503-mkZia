@@ -35,7 +35,37 @@
 
 
 
-## Highlights from Chapter 1
+## Chapter 1: Highlight
+  - A modern computer can be defined as “a machine that stores and manipulates information under the control of a changeable program.”
+    - Two key elements:
+      1. Computers are devices for manipulating information.
+      2. Computers operate under the control of a changeable program.
+  - What is a computer program?
+    - A detailed, step-by-step set of instructions telling a computer what to do.
+    - If we change the program, the computer performs a different set of actions or a different task.
+    - A program is just a sequence of instructions telling a computer what to do.
+  - Natural language has ambiguity and imprecision problems when used to describe complex algorithms.
+    - English example: "I saw a man on a hill with a telescope." source: 
+      - There’s a man on a hill, and I’m watching him with my telescope.
+      - There’s a man on a hill, who I’m seeing, and he has a telescope.
+      - There’s a man, and he’s on a hill that also has a telescope on it.
+      - I’m on a hill, and I saw a man using a telescope.
+      - There’s a man on a hill, and I’m sawing him with a telescope.
+    - source: https://www.quora.com/What-are-some-examples-of-ambiguous-sentences
+  - Programming Language
+    - Programs expressed in an unambiguous, precise way using programming languages. <strong>Bad code can be ambiguous due to human error. To the machine it is not ambiguous. Be very careful with conditionals.</strong>
+    - Every structure in programming language has a precise form, called its <strong>syntax</strong>
+  - What does a programming language do?
+    - It takes a High-level human readable language expression such as `c = a + b` and translates to machine language that the computer can execute.
+    - Compilers convert programs written in a high-level language into the machine language of some computer.
+    - Interpreters simulate a computer that understands a high-level language.
+    - The source program is not translated into machine language all at once.
+    - An interpreter analyzes and executes the source code instruction by instruction.
+  - Compiling vs. Interpreting
+    - Once program is compiled, it can be executed over and over without the source code or compiler. If it is interpreted, the source code and interpreter are needed each time the program runs
+    - Compiled programs generally run faster since the translation of the source code happens only once.
+    - Interpreted languages are part of a more flexible programming environment since they can be developed and run interactively
+    - Interpreted programs are more portable, meaning the executable code produced from a compiler for a Pentium won’t run on a Mac, without recompiling. If a suitable interpreter already exists, the interpreted code can be run with no modifications.
 
 
 ## Chapter 2: Syntax, Variables, and Definite Loop
@@ -46,8 +76,8 @@
   - Indentation is relevant; convention is to use 4 spaces; 
   - Spaces are not relevant
 
-### Identifiers or Naming Variables in Python
-  - Variables give names to values (number, string, or boolean); Technically they are called identifiers. 
+#### Identifiers or Naming Variables in Python
+  - Variables give names to values (number, string, or boolean); Technically they are called identifiers. They are container of information that a computer program will manipulate using a sequence of instructions. 
   - Variables names MUST follow certain rules and it is BEST to follow Python guidelines for naming 
   - Restrictions for identifiers or naming things in Python
     1. Start with letter or underscore
@@ -63,7 +93,7 @@
     4. UpperCamelCase for classes
     5. `__private__`  double underscore is convention that means you are not supposed access this variable directly. They are by convention like private variables in other languages. 
 
-### Working with Variables
+#### Working with Variables
   - `x = 503`;  
   - `y = "EAS503"`
   - `print(x)`
@@ -88,7 +118,7 @@
      -  do:
         - `x, y = y, x`
   
-### Definite Loops
+#### Definite Loops
   - Used to execute sequence of statements multiple times
   - There are different loops. Definite loops execute for a definite or predetermined number of times.
   - ```
