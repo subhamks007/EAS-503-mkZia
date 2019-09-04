@@ -1,6 +1,20 @@
 # Week 2
 
 
+## Review
+  - Analogy: English grammar is a set of rules that tells us how to say things correctly. Put another way, if we follow the rules of English language, a person listening to us will understand our intent. Programming languages also have a set of rules that if we follow them, the computer will understand our intent and carry out our instructions. In the previous lecture, we covered some of the rules for communicating our intent to a computer. 
+    - How do we tell a computer that we want to store a value?
+      - What are the rules and conventions for naming variables?
+    - What kinds of values can a computer store?
+    - How do we tell a computer to print whatever we want?
+    - How do we tell a computer to ask us for an input and save it to a variable?
+    - What mathematical operators does a computer understand?
+    - How can you tell the computer to update a variable by adding a value to the variable?  There are two ways of doing this. 
+    - How does a computer interpret a string?
+    - How do we tell a computer to access a character from a string?
+    - How do we tell a computer to concatenate two strings?
+    - How do we tell a computer to put special characters inside a string?
+
 ## Chapter 5 -- Lists
 
 ### General Information About Lists
@@ -44,8 +58,8 @@
   are called `local`, meaning they are local to that function. Variables that can be referenced by multiple functions are called `global`.
   - How do you pass variables between functions? You can pass them as parameters or inputs to the function. 
   - Variables in Python are of two types with respect to whether a function can change them or not and this change is preserved outside the function:
-    - Immutable: int, float, str, bool, tuple (a tuple is a list that cannot be changed once declared)
-    - Mutable: list, dict
+    - Immutable: `int`, `float`, `str`, `bool`, `tuple` (a tuple is a list that cannot be changed once declared)
+    - Mutable: `list`, `dict`
   - When you pass mutable variables to a function and make changes inside the function, the variable preserves the changes made inside the function
   - When you pass immutable variables to a function and make changes inside the function, the variable is not changed outside the function 
   - How can you change an immutable variable? 

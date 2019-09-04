@@ -178,8 +178,8 @@
       ```
     - int(), float()
   - `round()` will round a number; `round(pi, 3)
-  - `ceil()` will round up
-  - `floor()` round down
+  - `math.ceil()` will round up
+  - `math.floor()` round down
 
 
 ## Chapter 5: Strings
