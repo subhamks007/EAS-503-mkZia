@@ -25,13 +25,15 @@
     - `append()` - Used for appending and adding elements to List.It is used to add elements to the last position of List
     - `insert()` - Inserts an elements at specified position
     - `extend()` - Adds contents of a list to the end of another
-    - `sum()` - Sum list if it only contains numerical values
-    - `count()` - Count number of elements in list
     - `index()` - Returns the index of first occurrence
-    - `min()` - Calculate minimum of list if it only contains numerical values
-    - `max()` - Calculate maximum of list if it only contains numerical values
     - `sort()` - sort list
     - `reverse()` - reverse list
+  - Functions that work on lists
+    - `sum()` - Sum list if it only contains numerical values
+    - `len()` - Count number of elements in list
+    - `min()` - Calculate minimum of list if it only contains numerical values
+    - `max()` - Calculate maximum of list if it only contains numerical values
+
     - `sorted(my_list)` - return sorted list without changing `my_list`
     - `reversed(my_list)` - return sorted list in reverse order without changing `my_list`
     - `pop()` -  Remove last item from list
