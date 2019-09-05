@@ -28,17 +28,16 @@
     - `index()` - Returns the index of first occurrence
     - `sort()` - sort list
     - `reverse()` - reverse list
+    - `pop()` -  Remove last item from list
+    - `pop(idx)` - Remove item at index `idx`
+    - `remove(value)` - Remove from list `value` if it exist
   - Functions that work on lists
     - `sum()` - Sum list if it only contains numerical values
     - `len()` - Count number of elements in list
     - `min()` - Calculate minimum of list if it only contains numerical values
     - `max()` - Calculate maximum of list if it only contains numerical values
-
     - `sorted(my_list)` - return sorted list without changing `my_list`
     - `reversed(my_list)` - return sorted list in reverse order without changing `my_list`
-    - `pop()` -  Remove last item from list
-    - `pop(idx)` - Remove item at index `idx`
-    - `remove(value)` - Remove from list `value` if it exists
     - `del my_list[idx]` - NOT a list method. Using the `del` operator you can remove value at a given index
 
 
