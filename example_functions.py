@@ -3,20 +3,20 @@ variable = 'Global reporting!'
 
 
 def use_variable_global():
-	## since variable is outside the function
-	print(variable)
+    ## since variable is outside the function
+    print(variable)
 
 
 def use_variable_local():
-	variable = 'Local reporting!'
-	print(variable)
+    variable = 'Local reporting!'
+    print(variable)
 
 # def use_variable_global():
 
 def change_global_inside_function():
-	global variable
-	variable = 'I have been changed!'
-	print(variable)
+    global variable
+    variable = 'I have been changed!'
+    print(variable)
 
 
 print(variable)
