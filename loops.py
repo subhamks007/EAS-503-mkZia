@@ -1,4 +1,17 @@
-# n = int(input("How many numbers do you have? "))
+# import sys
+
+# try:
+#     n = int(input("How many numbers do you have? "))
+#     if n < 1:
+#         print('Please enter a value an integer than 0 !')
+#         sys.exit()
+# except ValueError as error:
+#     print(error)
+#     print('Please enter a number!')
+#     sys.exit()
+
+
+
 # sum = 0.0
 # for i in range(n):
 #     x = float(input("Enter a number >> "))
@@ -7,15 +20,15 @@
 
 
 # i = 0
-# while i <= 10:  
-#     print(i)   
-#     i = i + 1
+# while i <= 10:
+#     print(i)
+#     # i = i + 1
 
 
-sum = 0.0
+# sum = 0.0
 # count = 0
 # moredata = "yes"
-# while moredata[0] == "y":
+# while moredata.lower() == "yes":
 #     x = float(input("Enter a number >> "))
 #     sum = sum + x
 #     count = count + 1
@@ -33,15 +46,15 @@ sum = 0.0
 # print("\nThe average of the numbers is", sum / count)
 
 
-# sum = 0.0
-# count = 0
-# xStr = input("Enter a number (<Enter> to quit) >> ")
-# while xStr != "":
-#     x = float(xStr)
-#     sum = sum + x
-#     count = count + 1
-#     xStr = input("Enter a number (<Enter> to quit) >> ")
-# print("\nThe average of the numbers is", sum / count)
+sum = 0.0
+count = 0
+xStr = input("Enter a number (<Enter> to quit) >> ")
+while xStr != "":
+    x = float(xStr)
+    sum = sum + x
+    count = count + 1
+    xStr = input("Enter a number (<Enter> to quit) >> ")
+print("\nThe average of the numbers is", sum / count)
 
 
 # fileName = input("What file are the numbers in? ")
@@ -79,9 +92,9 @@ sum = 0.0
 #     line = infile.readline()
 # print("\nThe average of the numbers is", sum / count)
 
-## Add try 
+## Add try
 
-# while True: 
+# while True:
 #     number = float(input("Enter a positive number: "))
 #     if number >= 0:
 #         break # Exit loop if number is valid
@@ -97,7 +110,7 @@ sum = 0.0
 # print(ans)
 
 # https://realpython.com/python-conditional-statements/
-x = y = 40
-z = 1 + x if x > y else y + 2
+# x = y = 40
+# z = 1 + x if x > y else y + 2
 
-z = 1 + (x if x > y else y) + 2
+# z = 1 + (x if x > y else y) + 2

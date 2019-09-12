@@ -1,60 +1,64 @@
-print('Happy birthday to you!')
-print('Happy birthday to you!')
-print('Happy birthday, dear John')
-print('Happy birthday to you!')
-print('Happy birthday to you!')
+# print('Happy birthday to you!!!')
+# print('Happy birthday to you!!!')
+# print('Happy birthday, dear John')
+# print('Happy birthday to you!')
+# print('Happy birthday to you!')
 
+# print('_'*80)
 
-
-print('Happy birthday to you!')
-print('Happy birthday to you!')
-print('Happy birthday, dear Jane')
-print('Happy birthday to you!')
-print('Happy birthday to you!')
+# print('Happy birthday to you!')
+# print('Happy birthday to you!')
+# print('Happy birthday, dear Jane')
+# print('Happy birthday to you!')
+# print('Happy birthday to you!')
 
 
 def print_happy_birthday():
-    print('Happy birthday to you!')
-    print('Happy birthday to you!')
+    print('Happy birthday to you!!!')
+    print('Happy birthday to you!!!!!!')
+    print('Happy birthday to you!!!')
 
 
-print('-'*40)
+# print('-'*40)
 
 
-print_happy_birthday()
-print('Happy birthday, dear John')
-print_happy_birthday()
+# print_happy_birthday()
+# print('Happy birthday, dear John')
+# print_happy_birthday()
 
-print_happy_birthday()
-print('Happy birthday, dear Jane')
-print_happy_birthday()
+# print_happy_birthday()
+# print('Happy birthday, dear Jane')
+# print_happy_birthday()
 
 def print_happy_birthday_name(name):
     print(f'Happy birthday, dear {name}')
 
 
-print('-'*40)
 
-print_happy_birthday()
-print_happy_birthday_name('John')
-print_happy_birthday()
 
-print_happy_birthday()
-print_happy_birthday_name('Jane')
-print_happy_birthday()
+# print_happy_birthday()
+# print_happy_birthday_name('John')
+# print_happy_birthday()
+
+# print('-'*80)
+
+# print_happy_birthday()
+# print_happy_birthday_name('Jane')
+# print_happy_birthday()
 
 
 def print_happy_birthday2(count):
     for i in range(count):
-        print('Happy birthday to you!')
+        # print(i)
+        print('Happy birthday to you!!!!!')
 
 
 
-print('-'*40)
+# print('-'*40)
 
-print_happy_birthday2(2)
-print_happy_birthday_name('John')
-print_happy_birthday2(3)
+# print_happy_birthday2(2)
+# print_happy_birthday_name('John')
+# print_happy_birthday2(3)
 
 def print_happy_birthday3(count=4):
     for i in range(count):
@@ -62,38 +66,40 @@ def print_happy_birthday3(count=4):
 
 
 
-print('-'*40)
+# print('-'*40)
 
-print_happy_birthday3(2)
-print_happy_birthday_name('John')
-print_happy_birthday3()
-
-
-def happy_birthday(name, count=2):
-    print_happy_birthday3(count)
-    print_happy_birthday_name(name)
-    print_happy_birthday3(count)
-
-print('-'*40)
-happy_birthday('John', 6)
-happy_birthday('Jane', 6)
+# print_happy_birthday3(2)
+# print_happy_birthday_name('John')
+# print_happy_birthday3()
 
 
+# def happy_birthday(name, count=2):
+#     print_happy_birthday3(count)
+#     print_happy_birthday_name(name)
+#     print_happy_birthday3(count)
 
-def squares(n):
+# print('-'*60)
+# happy_birthday('John', 6)
+# print('-'*60)
+# happy_birthday('Jane', 3)
 
-    square_list = []
-    for i in range(1, n+1):
-        square_list.append(i*i)
 
-    return square_list
 
-def square2(n):
+# def squares(n):
+#     square_list = []
+#     for i in range(1, n+1):
+#         square_list.append(i*i)
+#     return square_list
 
-    return [i*i for i in range(1, n+1)]
+# # print(squares(100))
 
-print(squares(10))
-print(square2(10))
+
+# def square2(n):
+#     return [i+i for i in range(1, n+1)]
+
+
+# print(squares(10))
+# print(square2(10))
 
 
 def calculate_distance(x1,y1,x2,y2):
@@ -119,10 +125,11 @@ def modify_point(point):
     point[0] = 10
     point[1] = 20
 
-    # return point
+    return point
 
 # print(modify_point(point1))
 
 point_list = [4,6]
+print(point_list)
 modify_point(point_list)
 print(point_list)

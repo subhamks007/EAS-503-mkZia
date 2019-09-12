@@ -1,20 +1,27 @@
+
 # celsius = float(input("What is the Celsius temperature? "))
 # fahrenheit = 9/5 * celsius + 32
 # print("The temperature is", fahrenheit, "degrees fahrenheit.")
+
+
+
 
 # Lets add a print statement if temperature in F > 90 or F < 32
-# celsius = float(input("What is the Celsius temperature? "))
-# fahrenheit = 9/5 * celsius + 32
-# print("The temperature is", fahrenheit, "degrees fahrenheit.")
 
-# if fahrenheit > 95: # <expr> <relop> <expr>, where <relop> is relation is operator
-#     print("It's really hot out there. Be careful!")
+# def our_function():
+#     celsius = float(input("What is the Celsius temperature? "))
+#     fahrenheit = 9/5 * celsius + 32
+#     print("The temperature is", fahrenheit, "degrees fahrenheit.")
 
-# if fahrenheit < 32: # <expr> <relop> <expr>, where <relop> is relation is operator
-#     print("Be sure to dress warmly!")
+#     if fahrenheit > 95: # <expr> <relop> <expr>, where <relop> is relation operator
+#         print("It's really hot out there. Be careful!")
 
+#     if fahrenheit < 32: # <expr> <relop> <expr>, where <relop> is relation is operator
+#         print("Be sure to dress warmly!")
 
-# # # If this, otherwise that -- If Else conditional
+# our_function()
+
+# # If this, otherwise that -- If Else conditional
 # import math
 # print("This program finds the real solutions to a quadratic\n")
 # a = float(input("Enter coefficient a: "))
@@ -28,7 +35,7 @@
 # print("\nThe solutions are:", root1, root2)
 
 
-# # If this, otherwise that -- If Else conditional
+# If this, otherwise that -- If Else conditional
 # import math
 # print("This program finds the real solutions to a quadratic\n")
 # a = float(input("Enter coefficient a: "))
@@ -44,7 +51,7 @@
 #     root2 = (-b - disc_root) / (2 * a)
 #     print("\nThe solutions are:", root1, root2)
 
-# # If this, otherwise that -- If Else conditional
+# If this, otherwise that -- If Else conditional
 # import math
 # print("This program finds the real solutions to a quadratic\n")
 # a = float(input("Enter coefficient a: "))
@@ -67,7 +74,7 @@
 
 
 # # # If this, otherwise that -- If Else conditional
-# import math
+import math
 # print("This program finds the real solutions to a quadratic\n")
 # a = float(input("Enter coefficient a: "))
 # b = float(input("Enter coefficient b: "))
@@ -113,6 +120,24 @@
 #     print("\nNo real roots")
 
 
+# x = [1, 2, '3', 'three',  7.0]
+
+# new_list = []
+
+# for ele in x:
+#     try:
+#         new_list.append(float(ele))
+#     except ValueError:
+#         new_list.append(None)
+#      except IndexError:
+#         new_list.append(None)
+
+# print(new_list)
+
+# for value in new_list:
+#     if value:
+#         print(value*value)
+
 # print("This program finds the real solutions to a quadratic\n")
 
 import math
@@ -129,5 +154,18 @@ except ValueError as excObj:
         print("No Real Roots")
     else:
         print("Invalid coefficient given.")
+except IndexError as excObj:
+    pass
 except:
     print("\nSomething went wrong, sorry!")
+
+my_list = [1, 2, 3]
+x = 0
+try:
+    print(my_list[1].abc())
+except ZeroDivisionError as error:
+    print(error)
+except IndexError as error:
+    print(error)
+except:
+    print('Uncaught error!')
