@@ -10,7 +10,7 @@ for i in range(100):
     credit_hours = random.randint(1,140)
     while True:
         tmp = random.randint(1,400)
-        if tmp/credit_hours < 4.0 and tmp/credit_hours > 2.5:
+        if tmp/credit_hours < 4.0 and tmp/credit_hours > 1.5:
             q_point = tmp
             break
     lines.append((name, credit_hours, q_point))

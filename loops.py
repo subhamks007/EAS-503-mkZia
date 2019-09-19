@@ -46,15 +46,15 @@
 # print("\nThe average of the numbers is", sum / count)
 
 
-sum = 0.0
-count = 0
-xStr = input("Enter a number (<Enter> to quit) >> ")
-while xStr != "":
-    x = float(xStr)
-    sum = sum + x
-    count = count + 1
-    xStr = input("Enter a number (<Enter> to quit) >> ")
-print("\nThe average of the numbers is", sum / count)
+# sum = 0.0
+# count = 0
+# xStr = input("Enter a number (<Enter> to quit) >> ")
+# while xStr != "":
+#     x = float(xStr)
+#     sum = sum + x
+#     count = count + 1
+#     xStr = input("Enter a number (<Enter> to quit) >> ")
+# print("\nThe average of the numbers is", sum / count)
 
 
 # fileName = input("What file are the numbers in? ")
@@ -62,21 +62,37 @@ print("\nThe average of the numbers is", sum / count)
 # sum = 0.0
 # count = 0
 # for line in infile:
+#     if not line.strip():
+#         continue
+#     if line.strip() == 'NaN' or line.strip() == '.':
+#         print(f'Encountered a non number: {line.strip()}')
+#         continue
+#     print(line.strip())
 #     sum = sum + float(line)
 #     count = count + 1
 # print("\nThe average of the numbers is", sum / count)
 
-
-# fileName = input("What file are the numbers in? ")
-# infile = open(fileName,'r')
-# sum = 0.0
-# count = 0
-# line = infile.readline()
-# while line != "":
-#     sum = sum + float(line)
-#     count = count + 1
-#     line = infile.readline()
-# print("\nThe average of the numbers is", sum / count)
+import math
+fileName = input("What file are the numbers in? ")
+infile = open(fileName,'r')
+sum = 0.0
+count = 0
+line = infile.readline()
+while line:
+    print(line.strip())
+    try:
+        number = float(line)
+        if math.isnan(number):
+           line = infile.readline()
+           continue
+        sum = sum + float(line)
+    except Exception as error:
+        print(error)
+        line = infile.readline()
+        continue
+    count = count + 1
+    line = infile.readline()
+print("\nThe average of the numbers is", sum / count)
 
 
 # fileName = input("What file are the numbers in? ")
@@ -100,12 +116,7 @@ print("\nThe average of the numbers is", sum / count)
 #         break # Exit loop if number is valid
 
 
-# ans = input("What flavor do you want [vanilla]: ")
-# if ans:
-#     flavor = ans
-# else:
-#     flavor = "vanilla"
-
+# e
 # ans = input("What flavor do you want [vanilla]: ") or "vanilla"
 # print(ans)
 
