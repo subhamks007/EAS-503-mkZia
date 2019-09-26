@@ -9,7 +9,7 @@
   - Tuples
   - Sets
   - OOP programming
-    - Bank account example 
+    - Payroll system example 
       - Demonstrate polymorphism
     - operator overloading
       - add
