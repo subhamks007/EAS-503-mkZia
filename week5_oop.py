@@ -27,7 +27,6 @@ class SalariedEmployee(Employee):
     def __repr__(self):
         return f'salaried employee: {super().__repr__()}\nweekly salary: ${self.weekly_salary}'
 
-
 class HourlyEmployee(Employee):
     def __init__(self, first_name, last_name, ssn, hourly_wage, hours_worked):
         super().__init__(first_name, last_name, ssn)
@@ -74,35 +73,3 @@ class BasePlusCommissionEmployee(CommissionEmployee):
         return f'base-salaried {super().__repr__()}; base-salary: ${self.salary}'
 
 
-print('Employees processed individually:\n')
-salaried_employee = SalariedEmployee('John', 'Smith', '111-11-1111', 800)
-print(salaried_employee)
-print(f'earned: ${salaried_employee.earnings()}')
-
-print()
-hourly_employee = HourlyEmployee('Karen', 'Price', '222-22-2222', 16.75, 40)
-print(hourly_employee)
-print(f'earned: ${hourly_employee.earnings()}')
-
-print()
-commission_employee = CommissionEmployee('Sue', 'Jones', '333-33-3333', 10000, 0.06)
-print(commission_employee)
-print(f'earned: ${commission_employee.earnings()}')
-
-
-print()
-base_plus_commission_employee = BasePlusCommissionEmployee('Bob', 'Lewis', '444-44-4444', 5000, 0.04, 300)
-print(base_plus_commission_employee)
-print(f'earned: ${base_plus_commission_employee.earnings()}')
-
-
-employees = [salaried_employee, hourly_employee,
-             commission_employee, base_plus_commission_employee]
-
-for employee in employees:
-    print()
-    print(employee)
-    if employee.__class__.__name__ == 'BasePlusCommissionEmployee':
-        employee.salary = 1.10 * employee.salary
-        print(f'new base salary with 10% increase is {employee.salary}')
-    print(f'earned: ${employee.earnings()}')
