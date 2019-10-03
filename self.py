@@ -1,6 +1,8 @@
 class TestClass:
     class_variable = 1 # Belongs to the class. Shared by all instances
 
+
+
 t1 = TestClass()
 t2 = TestClass()
 
@@ -87,10 +89,10 @@ class TestClass:
     class_variable = 1
 
     # @staticmethod are bound to class rather than object. Therefore, to use them, you do not have
-    # to instantiate an object. 
-    # NOTE: staticmethods do no have access to class properties (variables or methods). 
+    # to instantiate an object.
+    # NOTE: staticmethods do no have access to class properties (variables or methods).
     # This means they cannot access class_variable.
-    # Such methods are used when you do not want subclasses to change/overwrite a specific method. 
+    # Such methods are used when you do not want subclasses to change/overwrite a specific method.
 
     @staticmethod
     def add(number1, number2):
@@ -104,38 +106,29 @@ class TestClass2:
     class_variable = 1
 
     # @staticmethod are bound to class rather than object. Therefore, to use them, you do not have
-    # to instantiate an object. 
-    # NOTE: staticmethods do no have access to class properties (variables or methods). 
+    # to instantiate an object.
+    # NOTE: staticmethods do no have access to class properties (variables or methods).
     # This means they cannot access class_variable.
-    # Such methods are used when you do not want subclasses to change/overwrite a specific method. 
+    # Such methods are used when you do not want subclasses to change/overwrite a specific method.
 
     @staticmethod
     def add(number1, number2):
-        return number1 + number2 #+ class_variable
-
+        return number1 + number2# + class_variable
 
 print('@staticmethod add: ', TestClass2.add(3,4))
-
-
-
 print('\n', '-'*60, '\n')
-
-
 
 class TestClass:
     class_variable = 1
 
     # @classmethod are bound to class rather than object. Therefore, to use them, you do not have
-    # to instantiate an object. 
-    # NOTE: Unlike staticmethods, classmethods do have access to class properties (variables or methods). 
-    # This means they can access class_variable. 
+    # to instantiate an object.
+    # NOTE: Unlike staticmethods, classmethods do have access to class properties (variables or methods).
+    # This means they can access class_variable.
 
     @classmethod
     def add(cls, number1, number2):
-        return number1 + number2 
-
-
-
+        return number1 + number2
 print('@classmethod add: ', TestClass.add(5,6))
 
 
@@ -144,9 +137,9 @@ class TestClass2:
     class_variable = 1
 
     # @classmethod are bound to class rather than object. Therefore, to use them, you do not have
-    # to instantiate an object. 
-    # NOTE: Unlike staticmethods, classmethods do have access to class properties (variables or methods). 
-    # This means they can access class_variable. 
+    # to instantiate an object.
+    # NOTE: Unlike staticmethods, classmethods do have access to class properties (variables or methods).
+    # This means they can access class_variable.
 
     @classmethod
     def add(cls, number1, number2):
@@ -161,7 +154,7 @@ print('\n', '-'*60, '\n')
 class TestClass:
     class_variable = 1
 
-
+    @staticmethod
     def add_static(number1, number2):
         return number1 + number2
 
@@ -171,7 +164,7 @@ class TestClass:
 
 
     def add_object(self, number1, number2):
-        return number1 + number2 + self.class_variable
+        return number1 + number2 + self.class_variable + 29
 
 
 print('add_static: ', TestClass.add_static(13,14))
