@@ -592,7 +592,7 @@ FROM Cars
 ### Altering Tables
  - Can easily add columns to tables
  - Can easily rename tables 
- - To change data type or add/remove restriction, you have to create a new table and populate it with old data
+ - To change data type, add/remove restriction, or change column name, you have to create a new table and populate it with old data
  - Can drop a column by using select statement and saving the output to another table
 
 

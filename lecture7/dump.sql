@@ -1,6 +1,6 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
-CREATE TABLE students (last_name text, first_name text, username text, exam1 float, exam2 float, exam3 float);
+CREATE TABLE students (last_name TEXT, first_name TEXT, username TEXT, exam1 REAL, exam2 REAL, exam3 REAL);
 INSERT INTO students VALUES('Larson','Melissa','larsonmeli',24.0,88.999999999999999996,30.999999999999999999);
 INSERT INTO students VALUES('Novak','Melissa','novakmeli',76.999999999999999998,3.0,37.999999999999999999);
 INSERT INTO students VALUES('Sawyer','Wendy','sawyerwend',81.000000000000000003,59.0,30.0);
