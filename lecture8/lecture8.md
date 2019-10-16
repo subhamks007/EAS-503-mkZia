@@ -255,8 +255,23 @@ ADD COLUMN column_definition;
 - To change data type, add/remove restriction, or change column name, you have to create a new table and populate it with old data
 
 ## UPDATE and DELETE
+```
+UPDATE Students
+SET DepartmentId = 4
+WHERE StudentId = 1;
+```
 
+```
+DELETE FROM Students
+WHERE StudentId = 1;
+```
 
 ## Using SQLite with Python
+- see files 
+```
+sqlite_example.py
+sqlite_example2.py
+sqlite_example3.py
+```
 
 
