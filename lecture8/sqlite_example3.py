@@ -36,6 +36,14 @@ def insert_student(conn, values):
     cur.execute(sql, values)
     return cur.lastrowid
 
+def insert_student2(conn, table, values):
+    sql = ''' INSERT INTO ?
+              VALUES(?,?,?) '''
+    cur = conn.cursor()
+    cur.execute(sql, values)
+    return cur.lastrowid
+
+
 def get_dept_fk(dept):
     cur = conn.cursor()
     cur.execute("""SELECT DepartmentId FROM Departments WHERE DepartmentName == (?);""",  (dept, ))
@@ -101,6 +109,8 @@ with conn:
         insert_depts(conn, (values, ))
     for values in students:
         values = list(values)
+        print(values)
         values[1] = get_dept_fk(values[1])
+        print(values)
         insert_student(conn, values)
     select_all_students(conn)
