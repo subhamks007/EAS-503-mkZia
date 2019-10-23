@@ -698,16 +698,17 @@ data.describe()
 ```
 
 ## More data manipulation
-
+```python
 data[data['exam1'].between(75, 85)] 
 data[data['exam1'].in([75, 85, 95])
 data[data['exam1'].isin([75, 85, 95])]  
 data['exam1'].unique() 
 data['exam1'].nunique()
 np.sort(data['exam1'].unique())
-
+```
 
 ## More examples
-
+```
 import pandas as pd
 data = pd.read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/airline-safety/airline-safety.csv")
+```
