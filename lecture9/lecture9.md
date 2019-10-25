@@ -379,11 +379,11 @@ import pandas as pd
 
 header = ['exam1', 'exam2', 'exam3']
 data = np.random.randint(65, 101, 12).reshape(4,3)
-variant_label = ['student1', 'student2', 'student3', 'student4']
+students = ['student1', 'student2', 'student3', 'student4']
 
 df = pd.DataFrame(data=data, columns=header)
 
-df = pd.DataFrame(data=data, index=variant_label, columns=header)
+df = pd.DataFrame(data=data, index=students, columns=header)
 df['exam1']
 df.exam1 # not a good way to do this
 
