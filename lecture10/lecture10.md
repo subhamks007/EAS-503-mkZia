@@ -62,4 +62,18 @@
   - second normal form
 
 - Analysis of example 6
-  - 
+  - Phone number, which is a non-key field, has transitive dependency on another non-key field. 
+
+- Analysis of example7
+  - Removed transitive dependency 
+
+
+## Example5 in Python
+- How do you recreate the tables in python?
+  - Write utility functions
+    - A connection function
+    - A create table function
+    - A select function
+    - Some insert functions
+
+## Example5 in Pandas
