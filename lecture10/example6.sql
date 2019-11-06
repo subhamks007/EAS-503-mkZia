@@ -2,7 +2,7 @@ CREATE TABLE [PROJECTS] (
     [ProjectNum] TEXT  NOT NULL PRIMARY KEY,
     [ProjectTitle] TEXT NOT NULL,
     [ProjectMgr] TEXT NOT NULL,
-    [Phone] INTEGER NOT NUL 
+    [Phone] INTEGER NOT NULL
 );
 
 INSERT INTO PROJECTS VALUES("30-452-T3", "STAR manual", "Garrison", "2756");

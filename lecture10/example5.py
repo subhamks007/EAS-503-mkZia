@@ -34,10 +34,10 @@ def insert_employee(conn, values):
 
 
 
-create_employee_table_sql = """ CREATE TABLE [EMPLOYEES] (  
+create_employeeame] TEXT NOT NULL,
+    [Firs_table_sql = """ CREATE TABLE [EMPLOYEES] (  
     [EmployeeID] TEXT  NOT NULL PRIMARY KEY,
-    [Last_Name] TEXT NOT NULL,
-    [First_Name] TEXT NOT NULL
+    [Last_Nt_Name] TEXT NOT NULL
 );
 
 """

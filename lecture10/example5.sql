@@ -14,8 +14,7 @@ INSERT INTO EMPLOYEES VALUES("EN1-40", "Wing", "Alexandra");
 
 CREATE TABLE [PROJECTS] (  
     [ProjectNum] TEXT  NOT NULL,
-    [ProjectTitle] TEXT NOT NULL,
-    PRIMARY KEY (ProjectNum, ProjectTitle)
+    [ProjectTitle] TEXT NOT NULL
 );
 
 INSERT INTO PROJECTS VALUES("30-452-T3", "STAR manual");
