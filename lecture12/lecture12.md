@@ -101,3 +101,7 @@
 - Another supervised machine learning classifier
   - use for both classification and regression 
 - Can do non-linear classification
+- Hyper plane -- maximize the margin between two classes
+- Support Vectors -- data points that define the hyper plane 
+- Margin width -- define an optimal hyper plane we need to maximize the width
+of the margin 
