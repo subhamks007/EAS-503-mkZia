@@ -25,3 +25,5 @@
     - Example: 95 % one class, 5% another class
 
 ## Examples of Dimensionality Reduction
+
+## Examples Applying algorithms
