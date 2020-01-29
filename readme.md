@@ -7,5 +7,6 @@
 - Week 5 -- Catch-Up week
 - Week 6 -- Database 1 
 - Week 7 -- Database 2 
-- Week 8 -- Numpys and Pandas
-- Week 9 -- Linking Database with Pandas and Visualization 
+- Week 8 -- Database 3 
+- Week 9 -- Numpys and Pandas
+- Week 10 -- Linking Database with Pandas and Visualization 
