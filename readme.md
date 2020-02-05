@@ -25,6 +25,7 @@
 
 ## Homework Dates (Tentative)
 - Homework will be posted on Thursday evenings 
+- No late homework will be accepted, not even for partial credit
 - PS1 -- release date: 2/3/2020; due 2/7/2020 -- Does not count toward grade
 - Homework 1 -- release date: 2/6/2020; due 2/18/2020
 - Homework 2 -- release date: 2/13/2020; due 2/25/2020
@@ -38,6 +39,7 @@
 - Homework 10 -- release date: 4/22/2020; due 5/8/2020
 
 ## Lab Dates (Tentative)
+- No late labs will be accepted, not even for partial credit
 - Lab 1 -- release date: 2/21/2020; due 3/13/2020
 - Lab 2 -- release date: 3/27/2020; due 4/17/2020
 - Lab 3 -- release date: 4/17/2020; due 5/8/2020
