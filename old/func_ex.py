@@ -1,50 +1,53 @@
-# print('Happy birthday to you!!!')
-# print('Happy birthday to you!!!')
-# print('Happy birthday, dear John')
-# print('Happy birthday to you!')
-# print('Happy birthday to you!')
+# 1 ----------------------------
+print('_'*40)
+print('Happy birthday to you!!!')
+print('Happy birthday to you!!!')
+print('Happy birthday, dear John')
+print('Happy birthday to you!')
+print('Happy birthday to you!')
+print('_'*40)
 
-# print('_'*80)
+# 2 ---------------------------------
+print('_'*40)
+print('Happy birthday to you!')
+print('Happy birthday to you!')
+print('Happy birthday, dear Jane')
+print('Happy birthday to you!')
+print('Happy birthday to you!')
+print('_'*40)
 
-# print('Happy birthday to you!')
-# print('Happy birthday to you!')
-# print('Happy birthday, dear Jane')
-# print('Happy birthday to you!')
-# print('Happy birthday to you!')
 
-
+# 3 ------------------------------
 def print_happy_birthday():
     print('Happy birthday to you!!!')
-    print('Happy birthday to you!!!!!!')
     print('Happy birthday to you!!!')
 
 
-# print('-'*40)
+# 4a ----------------
+print_happy_birthday()
+print('Happy birthday, dear John')
+print_happy_birthday()
+
+# 4b ----------------
+print_happy_birthday()
+print('Happy birthday, dear Jane')
+print_happy_birthday()
 
 
-# print_happy_birthday()
-# print('Happy birthday, dear John')
-# print_happy_birthday()
-
-# print_happy_birthday()
-# print('Happy birthday, dear Jane')
-# print_happy_birthday()
-
+# 5 ----------------------------------
 def print_happy_birthday_name(name):
     print(f'Happy birthday, dear {name}')
 
+# 6---------------------------
+print_happy_birthday()
+print_happy_birthday_name('John')
+print_happy_birthday()
 
+print('-'*80)
 
-
-# print_happy_birthday()
-# print_happy_birthday_name('John')
-# print_happy_birthday()
-
-# print('-'*80)
-
-# print_happy_birthday()
-# print_happy_birthday_name('Jane')
-# print_happy_birthday()
+print_happy_birthday()
+print_happy_birthday_name('Jane')
+print_happy_birthday()
 
 
 def print_happy_birthday2(count):

@@ -51,12 +51,7 @@
       spam = 'spam'
       spam *= 3
       ```
-    ``` Python
-    class_name = 'EAS503'
-    print(class_name[3])
-    for character in class_name:
-      print(character)
-    ```
+   
   - Escape sequences or Escape characters
     - Use these to put in special characters
     - Most common ones

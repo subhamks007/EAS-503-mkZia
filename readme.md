@@ -2,8 +2,8 @@
 
 ## Topics
 - Week 1 - 1/29/2020 -- Programming Concepts: Introduction, Python Basics (Data types, mathematical operations, variables, strings, input, output), and NBGrader 
-- Week 2 - 2/5/2020 -- Programming Concepts: Strings, Flow Control (Conditionals), Functions
-- Week 3 - 2/12/2020 -- Programming Concepts: Loops, Data Structures (lists, tuples, dictionaries, sets), File Handling
+- Week 2 - 2/5/2020 -- Programming Concepts: Strings, Flow Control (Conditionals), Functions Part 1, Function Scopes Part 1 
+- Week 3 - 2/12/2020 -- Programming Concepts: Data Structures (lists, tuples, dictionaries, sets), Loops, Functions Part 2, Function Scopes Part 2 , File Handling
 - Week 4 - 2/19/2020 -- Programming Concepts: Lambda, Filter, Map, Generator, Error Handling, Regular Expressions
 - Week 5 - 2/26/2020 -- Programming Concepts: Object-oriented Programming
 - Week 6 - 3/4/2020 -- Database Concepts 1:
@@ -24,6 +24,7 @@
 - No final!
 
 ## Homework Dates (Tentative)
+- Homework will be posted on Thursday evenings 
 - PS1 -- release date: 2/3/2020; due 2/7/2020 -- Does not count toward grade
 - Homework 1 -- release date: 2/6/2020; due 2/18/2020
 - Homework 2 -- release date: 2/13/2020; due 2/25/2020
@@ -37,7 +38,7 @@
 - Homework 10 -- release date: 4/22/2020; due 5/8/2020
 
 ## Lab Dates (Tentative)
-- Lab 1 -- release date: 2/14/2020; due 3/13/2020
+- Lab 1 -- release date: 2/21/2020; due 3/13/2020
 - Lab 2 -- release date: 3/27/2020; due 4/17/2020
 - Lab 3 -- release date: 4/17/2020; due 5/8/2020
 
