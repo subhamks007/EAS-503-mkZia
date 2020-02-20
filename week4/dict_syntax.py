@@ -53,7 +53,7 @@ value = 'john'
 if value in my_dict.values():
     print(True)
 else:
-    print(True)
+    print(False)
 
 # # dictionary methods
 my_dict.clear() ## empty dict
@@ -65,7 +65,7 @@ my_dict.copy() ## copy dict -- unique objects in memory
 new_student = {}.fromkeys(
     ['name', 'email', 'id', 'major'], 'missing')
 
-my_dict = {}.fromkeys(range(5), 'missing')
+my_dict = {}.fromkeys(range(5), 'iammissing')
 
 # ## get
 my_dict.get('name', None) # default

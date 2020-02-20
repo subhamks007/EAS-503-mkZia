@@ -132,12 +132,7 @@
 
 
 
-# # any and all
 
-# print(any((True, True, False)))
-# print(any((True, True, True)))
-# print(all((True, True, True)))
-# print(all((True, True, False)))
 
 # x = (('efg', 1), ('abc', 3), ('hij', 2))
 

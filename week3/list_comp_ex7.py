@@ -4,3 +4,8 @@
 
 
 numbers = range(20)
+
+even = [number for number in numbers if number % 2 == 0]
+
+
+
