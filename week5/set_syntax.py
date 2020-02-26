@@ -1,3 +1,4 @@
+# define two sets
 A = {0, 2, 4, 6, 8};
 B = {1, 2, 3, 4, 5};
 
@@ -15,6 +16,16 @@ B - A
 
 # # symmetric difference  https://en.wikipedia.org/wiki/Symmetric_difference
 A ^ B
+
+
+# iteration
+for ele in A:
+	print(A)
+
+# Add an element/member to a set
+## Add one member
+A.add('eight')
+A.update(('nine', 'ten'))
 
 my_list = [1, 1, 2, 3]
 my_list = list(set(my_list))
