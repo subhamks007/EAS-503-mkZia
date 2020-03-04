@@ -23,7 +23,15 @@ def function2(my_list, my_vairable):
 
 def function3():
 	my_list = [1, 2, 3, 4]
-	my_variable = 0
+	my_variable = 0def function2(my_list, my_vairable):
+	# https://stackoverflow.com/questions/2612802/how-to-clone-or-copy-a-list
+
+	my_list = my_list[:]
+	my_list.append(90)
+	my_variable = 45
+
+	print('my_list after change inside function2', my_list)
+	print('my_variable after change inside function2', my_variable)
 
 	function1(my_list, my_variable)
 

@@ -1,11 +1,11 @@
 import csv
 import random
 
-number_of_students = 10
+number_of_students = 100
 number_of_tests = 5
 test_score_range = (65, 100)
 
-csvfile = csv.writer(open('for_ex11_data.txt', 'w'), delimiter=',')
+csvfile = csv.writer(open('ex3_data.txt', 'w'), delimiter=',')
 
 for i in range(1, number_of_students+1):
     line = []

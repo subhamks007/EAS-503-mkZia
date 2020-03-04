@@ -109,7 +109,8 @@ print(list(map(lambda ele: {'Value': float(ele['value'])}, my_dict)))
 
 
 # lambda_ex7.py
-# Create a dictionary where the key is year and value is True/False if the year is a leap year
+# Create a dictionary where the key is year and 
+# value is True/False if the year is a leap year
 # 1) using a loop and dict
 # 2) using filter without a function
 # 3)
@@ -136,12 +137,11 @@ import pprint
 pprint.pprint(my_dict)
 print(leap_years)
 
+# filter(function, sequence)
 
-def square(num):
-    return num * num
+leap_year_lambda = lambda year: year % 4 == 0 
 
-
-print(list(map(square, range(5))))
+filter(leap_year_lambda, range(1970, 2000))
 
 print(list(filter(lambda year: year % 4 == 0, range(1970, 2000))))
 print(list(filter(lambda year: is_leap_year(year), range(1970, 2000))))

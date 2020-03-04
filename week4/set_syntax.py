@@ -20,7 +20,7 @@ A ^ B
 
 # iteration
 for ele in A:
-	print(ele)
+	print(A)
 
 # Add an element/member to a set
 ## Add one member
@@ -29,4 +29,3 @@ A.update(('nine', 'ten'))
 
 my_list = [1, 1, 2, 3]
 my_list = list(set(my_list))
-A.add('eight')
