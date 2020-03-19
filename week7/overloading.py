@@ -176,9 +176,3 @@ def PowX(limit, power):
 for ele in PowX(10, 3):
     print(ele)
 
-new_list = []
-for number in numbers:
-
-    if number % 2 == 0
-        new_list.append(number)
-        I am here!!
