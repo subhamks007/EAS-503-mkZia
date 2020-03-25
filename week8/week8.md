@@ -1,6 +1,6 @@
-# Week 7 Relational Database (SQL) 
+# Week 8 Relational Database (SQL) 
 - After you have parsed your data, you need to store the data 
-- Database allows you to persist data or save the data
+- Databases allows you to persist data or save the data
 - You can access the data later
 - SQL databases support transaction or they are transactional
     - This means that the database is ACID
