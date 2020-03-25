@@ -1,4 +1,4 @@
-# Week 7 Relational Database (SQL)
+# Week 7 Relational Database (SQL) 
 - After you have parsed your data, you need to store the data 
 - Database allows you to persist data or save the data
 - You can access the data later
@@ -41,7 +41,7 @@ create table students (last_name TEXT, first_name TEXT, username TEXT, exam1 REA
 .headers ON
 ```
 
-## Basic commands
+## Basic commands -- Part I
 ```
 .help
 .database
@@ -181,6 +181,7 @@ INSERT INTO Students('exam1') VALUES ('52');
 ```
 
 
+
 ### Primary Key
 ```
 .headers ON
@@ -203,14 +204,14 @@ SELECT rowid, * FROM Teachers;
 
 ```
 
-When you create a table that has an `INTEGER PRIMARY KEY` column, this column is the alias of the `rowid` column.
+When you create a table that has an `INTEGER NOT NULL PRIMARY KEY` column, this column is the alias of the `rowid` column. It uniquely defines a record/row.
 
 ```
 .headers ON
 DROP TABLE Teachers;
  
 CREATE TABLE Teachers (
-   TeacherId INTEGER PRIMARY KEY,
+   TeacherId INTEGER NOT NULL PRIMARY KEY,
    TeacherName  TEXT NOT NULL
 );
 INSERT INTO Teachers ('TeacherName') VALUES ('John Smith');
@@ -225,7 +226,7 @@ SELECT * FROM Teachers;
 DROP TABLE Teachers;
  
 CREATE TABLE Teachers (
-   TeacherId INTEGER PRIMARY KEY,
+   TeacherId INTEGER NOT NULL PRIMARY KEY,
    TeacherName  TEXT NOT NULL,
    TeacherEmployeeID INTEGER NOT NULL,
    UNIQUE (TeacherEmployeeID)
@@ -234,6 +235,12 @@ INSERT INTO Teachers ('TeacherName', 'TeacherEmployeeID') VALUES ('John Smith', 
 INSERT INTO Teachers ('TeacherName', 'TeacherEmployeeID') VALUES ('John Smith', 100002);
 SELECT * FROM Teachers;
 ```
+
+### Foreign Key
+- What is a foreign key? In a relational database, you can relate one table to another table. The two
+tables can be related if and only if both tables have one column in common. This column has to be declared as a INTEGER data type that cannot
+be NULL and has the `PRIMARY KEY` constraint -- example: ColumnName INTEGER NOT NULL PRIMARY KEY;
+- IMPORTANT: Foreign key constraint is not enabled by default in SQLite
 
 
 ### Create relationship
@@ -246,14 +253,14 @@ PRAGMA foreign_keys;
 DROP TABLE Teachers;
  
 CREATE TABLE Teachers (
-   TeacherId INTEGER PRIMARY KEY,
+   TeacherId INTEGER NOT NULL PRIMARY KEY,
    TeacherName  TEXT NOT NULL,
    TeacherEmployeeID INTEGER NOT NULL,
    UNIQUE (TeacherEmployeeID)
 );
 
 CREATE TABLE Courses(
-  CourseId     INTEGER PRIMARY KEY, 
+  CourseId     INTEGER NOT NULL PRIMARY KEY, 
   CourseName   TEXT NOT NULL,
   CourseShortID   TEXT NOT NULL,
   TeacherId INTEGER NOT NULL,
@@ -287,14 +294,14 @@ PRAGMA foreign_keys;
 DROP TABLE Teachers;
 DROP TABLE Courses;
 CREATE TABLE Teachers (
-   TeacherId INTEGER PRIMARY KEY,
+   TeacherId INTEGER NOT NULL PRIMARY KEY,
    TeacherName  TEXT NOT NULL,
    TeacherEmployeeID INTEGER NOT NULL,
    UNIQUE (TeacherEmployeeID)
 );
 
 CREATE TABLE Courses(
-  CourseId     INTEGER PRIMARY KEY, 
+  CourseId     INTEGER NOT NULL PRIMARY KEY, 
   CourseName   TEXT NOT NULL,
   CourseShortID   TEXT NOT NULL,
   TeacherId INTEGER NOT NULL,
@@ -328,13 +335,13 @@ DROP TABLE MakeModels
 DROP TABLE Cars
 
 CREATE TABLE Colors (
-   color_id INTEGER PRIMARY KEY,
+   color_id INTEGER NOT NULL PRIMARY KEY,
    color  TEXT NOT NULL,
    UNIQUE (color)
 );
 
 CREATE TABLE MakeModels (
-  make_model_id     INTEGER PRIMARY KEY, 
+  make_model_id     INTEGER NOT NULL PRIMARY KEY, 
   Make   TEXT NOT NULL,
   Model   TEXT NOT NULL,
   Year INTEGER NOT NULL,
@@ -342,7 +349,7 @@ CREATE TABLE MakeModels (
 );
 
 CREATE TABLE Cars (
-   car_id INTEGER PRIMARY KEY,
+   car_id INTEGER NOT NULL PRIMARY KEY,
    make_model_id INTEGER NOT NULL,
    color_id INTEGER NOT NULL,
    available INTEGER NOT NULL,
@@ -387,13 +394,13 @@ DROP TABLE MakeModels;
 DROP TABLE Cars;
 
 CREATE TABLE Colors (
-   color_id INTEGER PRIMARY KEY,
+   color_id INTEGER NOT NULL PRIMARY KEY,
    color  TEXT NOT NULL,
    UNIQUE (color)
 );
 
 CREATE TABLE MakeModels (
-  make_model_id     INTEGER PRIMARY KEY, 
+  make_model_id     INTEGER NOT NULL PRIMARY KEY, 
   Make   TEXT NOT NULL,
   Model   TEXT NOT NULL,
   Year INTEGER NOT NULL,
@@ -401,7 +408,7 @@ CREATE TABLE MakeModels (
 );
 
 CREATE TABLE Cars (
-   car_id INTEGER PRIMARY KEY,
+   car_id INTEGER NOT NULL PRIMARY KEY,
    make_model_id INTEGER NOT NULL,
    color_id INTEGER NOT NULL,
    available INTEGER NOT NULL,
@@ -499,13 +506,13 @@ DROP TABLE MakeModels;
 DROP TABLE Colors;
 
 CREATE TABLE Colors (
-   color_id INTEGER PRIMARY KEY,
+   color_id INTEGER NOT NULL PRIMARY KEY,
    color  TEXT NOT NULL,
    UNIQUE (color)
 );
 
 CREATE TABLE MakeModels (
-  make_model_id     INTEGER PRIMARY KEY, 
+  make_model_id     INTEGER NOT NULL PRIMARY KEY, 
   Make   TEXT NOT NULL,
   Model   TEXT NOT NULL,
   Year INTEGER NOT NULL,
@@ -513,7 +520,7 @@ CREATE TABLE MakeModels (
 );
 
 CREATE TABLE Cars (
-   car_id INTEGER PRIMARY KEY,
+   car_id INTEGER NOT NULL PRIMARY KEY,
    make_model_id INTEGER NOT NULL,
    color_id INTEGER NOT NULL,
    available INTEGER NOT NULL,
@@ -603,13 +610,13 @@ DROP TABLE MakeModels;
 DROP TABLE Colors;
 
 CREATE TABLE Colors (
-   color_id INTEGER PRIMARY KEY,
+   color_id INTEGER NOT NULL PRIMARY KEY,
    color  TEXT NOT NULL,
    UNIQUE (color)
 );
 
 CREATE TABLE MakeModels (
-  make_model_id     INTEGER PRIMARY KEY, 
+  make_model_id     INTEGER NOT NULL PRIMARY KEY, 
   Make   TEXT NOT NULL,
   Model   TEXT NOT NULL,
   Year INTEGER NOT NULL,
@@ -617,7 +624,7 @@ CREATE TABLE MakeModels (
 );
 
 CREATE TABLE Cars (
-   car_id INTEGER PRIMARY KEY,
+   car_id INTEGER NOT NULL PRIMARY KEY,
    make_model_id INTEGER NOT NULL,
    color_id INTEGER NOT NULL,
    available INTEGER NOT NULL,
@@ -658,6 +665,7 @@ FROM Cars
 
 
 ### Backup a single table
+```
 .output dump.sql
 .dump <table_name>
 .output stdout
@@ -671,11 +679,16 @@ FROM Cars
 .output stdout
 ```
 
+## Using SQLite with Python
+- see file
+```
+py_sqlite_ex1.py.ipynb
+```
 
 
+## More Commands Part II
 
-
-## Foreign Key
+### Foreign Key
 - What is a foreign key? In a relational database, you can relate one table to another table. The two
 tables can be related if and only if both tables have one column in common. This column has to be declared as a INTEGER data type that cannot be NULL and has the `PRIMARY KEY` constraint -- example: ColumnName INTEGER NOT NULL PRIMARY KEY;
 - IMPORTANT: Foreign key constraint is not enabled by default in SQLite
@@ -700,8 +713,8 @@ PRAGMA foreign_keys = ON # Enforce foreign_keys constraint -- OFF by default!
 
 ### SELECT *
 ```
-SELECT * FROM Departments;  
-SELECT * FROM Students; 
+SELECT * FROM Departments;	
+SELECT * FROM Students;	
 ```
 
 ### SELECT * with join 
@@ -766,7 +779,7 @@ INNER JOIN Departments ON Students.DepartmentId = Departments.DepartmentId;
 ```
 SELECT s.StudentName, d.DepartmentName
 FROM Students AS s
-INNER JOIN Departments AS d ON s.DepartmentId = d.DepartmentId; 
+INNER JOIN Departments AS d ON s.DepartmentId = d.DepartmentId;	
 ```
 
 ### Concatenation operator ||
