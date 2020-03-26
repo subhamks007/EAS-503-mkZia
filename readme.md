@@ -46,7 +46,7 @@
 
 ## Project Dates (Tentative)
 - Form groups -- 3/13/2020
-- Proposal Due -- 4/3/2020
+- Proposal Due -- 4/13/2020
 - Preliminary Report Due -- 4/26/2020
 - Project Presentation -- 5/6/2020
 - Final Project Report Due -- 5/13/2020
