@@ -408,4 +408,3 @@ sqlite_example3.py
     - A select function
     - Some insert functions
 
-## Example5 in Pandas
