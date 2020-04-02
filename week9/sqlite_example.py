@@ -13,6 +13,7 @@ def create_connection(db_file):
     return conn
 
 
+
 def create_table(conn, create_table_sql):
     try:
         c = conn.cursor()
@@ -45,7 +46,7 @@ def select_all_students(conn):
 import os, pprint
 
 
-db_file = 'student_test.db'
+db_file = 'student_test_in_class.db'
 if os.path.exists(db_file):
     os.remove(db_file)
 
@@ -55,15 +56,15 @@ conn = create_connection(db_file)
 
 with conn:
     # create
-    create_table(conn, create_table_sql)
+    # create_table(conn, create_table_sql)
 
-    # insert
-    for student in open('students.tsv', 'r'):
-        values = student.strip().split('\t')
-        rid = insert_student(conn, values)
+    # # insert
+    # for student in open('students.tsv', 'r'):
+    #     values = student.strip().split('\t')
+    #     rid = insert_student(conn, values)
 
-    # select
-    rows = select_all_students(conn)
+    # # select
+    # rows = select_all_students(conn)
 
 # calculate average of all students
 from statistics import mean
