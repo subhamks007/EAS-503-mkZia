@@ -145,7 +145,10 @@ SELECT StudentName AS 'Student Name', DateOfBirth AS 'DOB', DepartmentName AS 'D
 FROM Students
 INNER JOIN Departments USING(DepartmentId);
 
-SELECT Tests.TestName 'Test Name', avg(Marks.Mark) 'Average' FROM Marks JOIN Tests USING(TestId) GROUP BY Tests.TestId;
+SELECT Tests.TestName AS 'Test Name', 
+count(Marks.Mark) as 'Number of Tests',
+avg(Marks.Mark) AS 'Average'
+FROM Marks JOIN Tests USING(TestId) GROUP BY Tests.TestId;
 ```
 
 ### Using a reference for table name
@@ -181,7 +184,7 @@ SELECT StudentName FROM Students WHERE StudentName LIKE 'j%';
 SELECT StudentName FROM Students WHERE StudentName LIKE '%n%';
 ```
 
-### WHERE operator with multiple conditions 
+### WHERE operator with multiple conditions using AND or OR operator
 ```
 SELECT * 
 FROM Students 
@@ -190,7 +193,7 @@ WHERE (StudentId > 5) AND (StudentName LIKE 'N%');
 
 SELECT * 
 FROM Students 
-WHERE (StudentId > 5) OR (StudentName LIKE 'N%');
+WHERE (StudentId > 5) OR (StudentName LIKE 'M%');
 ```
 
 
