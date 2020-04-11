@@ -33,7 +33,7 @@
 - Homework 3 -- release date: 2/20/2020; due 3/4/2020
 - Homework 4 -- release date: 2/27/2020; due 3/20/2020
 - Homework 5 -- release date: 3/21/2020; due 4/11/2020
-- Homework 6 -- release date: 4/6/2020; due 4/13/2020
+- Homework 6 -- release date: 4/6/2020; due 4/14/2020
 - Homework 7 -- release date: 4/12/2020; due 4/18/2020
 - Homework 8 -- release date: 4/26/2020; due 5/2/2020
 - Homework 9 -- release date: 5/3/2020; due 5/15/2020
