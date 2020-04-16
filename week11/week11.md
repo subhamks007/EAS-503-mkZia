@@ -674,6 +674,9 @@ data.sort_values('Mark', ascending=False)
 
 data = pd.read_csv('students.tsv', sep='\t', names=['lastname', 'firstname', 'username', 'exam1', 'exam2', 'exam3']) 
 
+## If you leave out the names, then the first line is assumed to be the header. 
+data = pd.read_csv('students.tsv', sep='\t') 
+
 data.sort_values('exam1', ascending=False) 
 
 data[['exam1', 'exam2', 'exam3']].mean() 
@@ -688,7 +691,7 @@ data.to_csv('output.tsv', sep='\t', index=False, header=False)
 data.head()
 data.head(2)
 
-data.tail
+data.tail()
 data.tail(3)
 
 data.shape
@@ -696,14 +699,14 @@ data.iloc[3]
 data.columns 
 data.dtypes 
 data.info()  
-data.get_dtype_counts() 
+data.dtypes.value_counts()
 data.describe()  
 ```
 
 ## More data manipulation
 ```python
 data[data['exam1'].between(75, 85)] 
-data[data['exam1'].in([75, 85, 95])
+data[data['exam1'].in([75, 85, 95])]
 data[data['exam1'].isin([75, 85, 95])]  
 data['exam1'].unique() 
 data['exam1'].nunique()
