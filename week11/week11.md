@@ -281,7 +281,7 @@ np.unique(matrix.reshape(3,3))
 
 ## Pandas
 - Built-on top of NumPy -- meaning the underlying data structure used is ndarray
-- Pandas provides series which are like NumPy arrays but with associated index labels -- meaning are like column  labels or row labels. Element data type can be different
+- Pandas provides series which are like NumPy arrays but with associated index labels -- they are like column  labels or row labels. Element data type can be different
 - Pandas also provides dataframes which are like Excel sheets or database tables
 
 
@@ -295,7 +295,7 @@ header = ['chrom', 'pos', 'filter']
 data = [4, 12345, 38.4]
 
 vector = np.array(data)
-data_dict = {'chrom': 4, 'pos': 12345, 'filter': 38.4}
+
 
 s1 = pd.Series(data=data) # Notice the data type is float
 s2 = pd.Series(data=data, index=header)
@@ -310,6 +310,7 @@ data = [1, '2s', 34]
 pd.Series(data)
 
 # can use a dictionary to initialize a panda series
+data_dict = {'chrom': 4, 'pos': 12345, 'filter': 38.4}
 pd.Series(data_dict)
 
 ## Using index labels to fetch element
@@ -632,6 +633,8 @@ data['Mark'].apply(times5)
 
 data['Mark'].apply(lambda val: val*5)
 
+data['Mark']*5
+
 ```
 - Upper all department names
 
@@ -646,7 +649,7 @@ data['DepartmentName'].apply(lambda string: string.upper())
 ```python
 
 mapping = {18: 'B', 14: 'C', 19: 'A-', 20: 'A+'}
-df3['Mark'].map(mapping)     
+data['Mark'].map(mapping)     
 
 
 ```
