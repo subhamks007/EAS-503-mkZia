@@ -18,8 +18,8 @@
 
 
 ## Grading
-- Homework (9) -- 40%
-- Labs (3) -- 30%
+- Homework (8) -- 40%
+- Labs (2) -- 30%
 - Project(1) -- 30%
 - No final!
 
@@ -34,16 +34,16 @@
 - Homework 4 -- release date: 2/27/2020; due 3/20/2020
 - Homework 5 -- release date: 3/21/2020; due 4/11/2020
 - Homework 6 -- release date: 4/6/2020; due 4/14/2020
-- Homework 7 -- release date: 4/12/2020; due 4/19/2020
-- Homework 8 -- release date: 4/26/2020; due 5/3/2020
-- Homework 9 -- release date: 5/3/2020; due 5/15/2020
+- Homework 7 -- release date: 4/12/2020; due 4/25/2020
+- Homework 8 -- release date: 5/3/2020; due 5/14/2020
+<!---- - Homework 9 -- release date: 5/3/2020; due 5/15/2020 -->
 <!---- Homework 10 -- release date: 3/14/2020; due 4/3/2020 -->
 
 ## Lab Dates (Tentative)
 - No late labs will be accepted, not even for partial credit
 - Lab 1 -- release date: 2/21/2020; due 4/4/2020
-- Lab 2 -- release date: 4/19/2020; due 5/3/2020
-- Lab 3 -- release date: 5/3/2020; due 5/15/2020
+- Lab 2 -- release date: 4/25/2020; due 5/9/2020
+<!---- Lab 3 -- release date: 5/3/2020; due 5/15/2020 -->
 
 ## Project Dates (Tentative)
 - Form groups -- 3/13/2020
