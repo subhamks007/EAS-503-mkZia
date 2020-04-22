@@ -5,7 +5,7 @@
 - Matplotlib
 - Seaborn_1
 - Seaborn_2
-- Introduction to Machine Learning
+- Introduction to Machine Learning Tools in Python
 
 
 ## General Outline of Machine Learning
