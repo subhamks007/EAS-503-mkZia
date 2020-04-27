@@ -42,12 +42,12 @@
 ## Lab Dates (Tentative)
 - No late labs will be accepted, not even for partial credit
 - Lab 1 -- release date: 2/21/2020; due 4/4/2020
-- Lab 2 -- release date: 4/25/2020; due 5/9/2020
+- Lab 2 -- release date: 4/27/2020; due 5/11/2020
 <!---- Lab 3 -- release date: 5/3/2020; due 5/15/2020 -->
 
 ## Project Dates (Tentative)
 - Form groups -- 3/13/2020
 - Proposal Due -- 4/13/2020
-- Preliminary Report Due -- 4/26/2020
+- Preliminary Report Due -- 4/28/2020
 - Project Presentation -- 5/6/2020
 - Final Project Report Due -- 5/13/2020
