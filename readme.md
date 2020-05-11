@@ -18,7 +18,7 @@
 
 
 ## Grading
-- Homework (8) -- 40%
+- Homework (7) -- 40%
 - Labs (2) -- 30%
 - Project(1) -- 30%
 - No final!
