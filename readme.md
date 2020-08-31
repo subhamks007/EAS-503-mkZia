@@ -7,9 +7,9 @@
 - Week 4 - 9/23/2020 -- Python Programming: Sets, Tuples, Dictionaries 
 - Week 5 - 9/30/2020 -- Python Programming: Lambda, Filter, Map, Generator, Error Handling, Regular Expressions
 - Week 6 - 10/7/2020 -- Python Programming: Object-oriented Programming 
-- Week 7 - 10/14/2020 -- Catch up week
-- Week 8 - 10/21/2020 -- Database Concepts 1
-- Week 9 - 10/28/2020 -- Database Concepts 2
+- Week 7 - 10/14/2020 -- Database Concepts 1 using SQLite3
+- Week 8 - 10/21/2020 -- Database Concepts 2 using SQLite3
+- Week 9 - 10/28/2020 -- Connecting Python and SQLite3
 - Week 10 - 11/4/2020 -- Working with Data: Numpys and Pandas
 - Week 11 - 11/11/2020 -- Visualization: Linking Database to Pandas and Visualization (matplotlib, seaborn, plotly)
 - Week 12 - 11/18/2020 -- Machine Learning with Python 1
@@ -23,6 +23,9 @@
 - Labs (3) -- 30%
 - Project (1) -- 30%
 - No final!
+- Midterm Grades due -- 11/6/2020
+- Final Grades due -- 12/28/2020
+
 
 ## Homework Dates (Tentative)
 - Homework will be posted on Sundays @ 9PM EST 
