@@ -31,17 +31,17 @@
 - Homework will be posted on Sundays @ 9PM EST 
 - Homework will be due on Sundays @ 9PM EST
 - No late homework will be accepted, not even for partial credit
-- Homework 0 -- release date: 9/2/2020; due 9/7/2020 -- Does not count toward grade
-- Homework 1 -- release date: 9/6/2020; due 9/13/2020
-- Homework 2 -- release date: 9/13/2020; due 9/20/2020
-- Homework 3 -- release date: 9/20/2020; due 9/27/2020
-- Homework 4 -- release date: 9/27/2020; due 10/4/2020
-- Homework 5 -- release date: 10/4/2020; due 10/11/2020
-- Homework 6 -- release date: 10/18/2020; due 10/25/2020
-- Homework 7 -- release date: 10/25/2020; due 11/1/2020
-- Homework 8 -- release date: 11/1/2020; due 11/8/2020 
-- Homework 9 -- release date: 11/8/2020; due 11/15/2020 
-- Homework 10 -- release date: 11/15/2020; due 11/22/2020
+- Homework 0 -- release date: 9/2/2020; due 9/13/2020 -- Does not count toward grade
+- Homework 1 -- release date: 9/13/2020; due 9/20/2020
+- Homework 2 -- release date: 9/20/2020; due 9/27/2020
+- Homework 3 -- release date: 9/27/2020; due 10/4/2020
+- Homework 4 -- release date: 10/4/2020; due 10/11/2020
+- Homework 5 -- release date: 10/18/2020; due 10/25/2020
+- Homework 6 -- release date: 10/25/2020; due 11/1/2020
+- Homework 7 -- release date: 11/1/2020; due 11/8/2020 
+- Homework 8 -- release date: 11/8/2020; due 11/15/2020 
+- Homework 9 -- release date: 11/15/2020; due 11/22/2020
+- Homework 10 -- release date: 11/22/2020; due 11/29/2020
 
 ## Lab Dates (Tentative)
 - No late labs will be accepted, not even for partial credit
