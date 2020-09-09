@@ -286,7 +286,7 @@ max(2, -3, min(4, 7), -5)
 ```
 
 ### Defining your own functions
-- The build-in functions that Python provides do basic tasks. We can write our own functions that can do execute complicated sequence
+- The build-in functions that Python provides do basic tasks. We can write our own functions that can execute complicated sequence
 of instructions. Your functions will be made up of Python operators and built-in Python functions.
 
 #### Designing New Functions: A Recipe
@@ -297,145 +297,31 @@ of instructions. Your functions will be made up of Python operators and built-in
 - Does it work like you expect it to? -- We will not cover in this class. 
 
 
-```
+```python
 def f(x):
     squared_x  = x * x
     return squared_x
 ```
 
-```
+```python
 def f(x):
     squared_x = x ** 2
     return squared_x
 ```
 
-```
+```python
 def f(x):
     squared_x = pow(x, 2)
     return squared_x
 ```
 
-```
+```python
 def f(x):
     return x**2
 ```
 
-```
+```python
 def f(x):
     return pow(x, 2)
 ```
 
-
-
-## Strings
-- In Python, text is represented as a string, which is a sequence of characters (letters, digits, and symbols).
-- In Python, we indicate that a value is a string by putting either single or double quotes around it.
-
-### Operations on Strings
-- `len()` -- to get length of a string
-- `+` -- can add strings, but not str and type float or int
-- `*` -- to repeat a string 
-- `+=` -- add to another string and save value
-- `int(3)`
-- `float(3.4)`
-
-### Using Special Characters in Strings
-- How would you put a single quote inside a string that is declared using a single quote?
-- `'\\'` -- how would you print `/\/\`
-- `'\n'`
-- `'\''`
-- `'\"'`
-- `'\t'` -- useful for parsing TSV files
-
-
-### Printing in Python
-```
-print('abbcd', 2, 3)
-```
-
-
-### Getting information from the Keyboard
-```
-number = input('Please enter a number: ')
-```
-
-```
-number = int(input('Please enter a number: '))
-```
-
-```python
-def convert_celsius(fahrenheit):
-    return (fahrenheit - 32.0) * 5.0 / 9.0    
-```
-
-```python
-def convert_celsius():
-    fahrenheit = float(input('Please enter temprature in fahrenheit: '))
-    celsius =  (fahrenheit - 32.0) * 5.0 / 9.0  
-    print('The temperature in celsius is: ', celsius) 
-
-```
-
-
-### String as a sequence
-- Strings are defined as a sequence of characters. How can you access a character in a string?
-- You can access individual characters with the the first character having index 0
-- `greet = 'Hello Bob'`
-- `greet[1]`
-- can do reverse indexing using negative numbers
-  - `greet[-1]`
-- can slice strings; does not include the end position
-  - `<string>[<start>:<end>:<skip>]` where start, end, and skip are ints
-  - `greet[0:3]`
-  - `greet[:5]`
-  - `greet[5:]`
-  - `greet[:]`
-  - `greet[::2]`
- 
-- We learned how to define functions. Some data types come with functions attached. These attached functions are called
-`methods`. 
-- String methods: https://www.w3schools.com/python/python_ref_string.asp
-  - `capitalize()` Converts the first character to upper case
-  - `count()` Returns the number of times a specified value occurs in a string
-  - `lower()` Converts a string into lower case
-  - `split()` Splits the string at the specified separator, and returns a list
-  - `title()` Converts the first character of each word to upper case
-  - `upper()` Converts a string into upper case
-
-
-### Nbgrader
-
-### String Formatting
-- The fastest and latest way to do string formatting is using the F-strings (https://realpython.com/python-f-strings/)
-- ``` python
-  PI = 3.14159265359 
-  print(f'{PI:.2f}')
-  ```
-- But you have to know the other ways so you can read older code or use these ways if you have to use an older version of Python
-  - ``` python
-    PI = 3.14159265359 
-    name = 'PI'
-    print('%s is %.2f' % (name, PI))  # oldest way format specifier is <width>.<precision><type>
-    print(('{0} is {1:.2f}'.format('PI', PI)) ) # older way {<index>:<format-specifier>} where the format specifier is <width>.<precision><type>
-    print(f'{name} is {PI:.2f}') # newest way
-    ```
-
-- More examples: https://pyformat.info/
-- https://scipython.com/book/chapter-2-the-core-python-language-i/string-representation-of-integers-with-comma-separated-thousands/
-```python
-title = '|' + '{:^51}'.format('Cereal Yields (kg/ha)') + '|'
-line = '+' + '-'*15 + '+' + ('-'*8 + '+')*4
-row = '| {:<13} |' + ' {:6,d} |'*4
-header = '| {:^13s} |'.format('Country') + (' {:^6d} |'*4).format(1980, 1990,
-                                                                  2000, 2010)
-print('+' + '-'*(len(title)-2) + '+',
-      title,
-      line,
-      header,
-      line,
-      row.format('China', 2937, 4321, 4752, 5527),
-      row.format('Germany', 4225, 5411, 6453, 6718),
-      row.format('United States', 3772, 4755, 5854, 6988),
-      line,
-      sep='\n')
-```
