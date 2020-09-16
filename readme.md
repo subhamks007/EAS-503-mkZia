@@ -2,10 +2,10 @@
 
 ## Topics (Tentative)
 - Week 1 - 9/2/2020 -- Python Programming: Introduction, Python Basics (data types, mathematical operations, variables), Functions, NBGrader 
-- Week 2 - 9/9/2020 -- Python Programming:  Making Choices/Flow Control/Conditionals 
-- Week 3 - 9/16/2020 -- Python Programming: Python Modules and Methods, Lists, Loops, Function Scopes
-- Week 4 - 9/23/2020 -- Python Programming: Sets, Tuples, Dictionaries 
-- Week 5 - 9/30/2020 -- Python Programming: File Handling, Lambda, Filter, Map, Generator, Error Handling, Regular Expressions
+- Week 2 - 9/9/2020 -- Python Programming:  Function Examples, Strings 
+- Week 3 - 9/16/2020 -- Python Programming: Making Choices/Flow Control/Conditionals, String Methods, Lists, Loops, List Comprehension, File Handling
+- Week 4 - 9/23/2020 -- Python Programming: Sets, Tuples, Dictionaries, Modules, Function Scope 
+- Week 5 - 9/30/2020 -- Python Programming: Lambda, Filter, Map, Generator, Error Handling, Regular Expressions
 - Week 6 - 10/7/2020 -- Python Programming: Object-oriented Programming 
 - Week 7 - 10/14/2020 -- Database Concepts 1 using SQLite3
 - Week 8 - 10/21/2020 -- Database Concepts 2 using SQLite3
