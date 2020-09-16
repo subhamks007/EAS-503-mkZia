@@ -146,7 +146,7 @@ print('+' + '-'*(len(title)-2) + '+',
 
 ## String methods
 ![String Methods](string_methods1.png)
-![String Methods](string_methods2.jpg)
+![String Methods](string_methods2.png)
 
 
 ## Making Choices/Flow Control/Conditionals
