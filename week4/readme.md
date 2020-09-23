@@ -1,5 +1,5 @@
-# Week 3 
-## Week 3 Topics
+# Week 4 
+## Week 4 Topics
 - Making Choices/Flow Control/Conditionals Examples
 - Data Structures (lists, tuples)
 - Repeating code using loops
@@ -9,7 +9,7 @@
 
 ## Data Structures (lists, tuples)
 - So far we have covered the following data types: `int`, `float`, and `bool`. Now we will
-cover `list`, `tuple`, `dict`, and `set`. 
+cover `list`, and `tuple` 
 - Data types in Python can be classified as `mutable` and `immutable`. 
 	- Immutable data types are: `int`, `float`, `bool`, and `tuple`
 	- Mutable data types are: `list`, `tuple`, `dict`, and `set`
