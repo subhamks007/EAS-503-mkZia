@@ -1,15 +1,15 @@
 # EAS503 Fall 2020
 
 ## Topics (Tentative)
-- Week 1 - 9/2/2020 -- Python Programming: Introduction, Python Basics (data types, mathematical operations, variables), Functions, NBGrader 
-- Week 2 - 9/9/2020 -- Python Programming:  Function Examples, Strings 
-- Week 3 - 9/16/2020 -- Python Programming: Making Choices/Flow Control/Conditionals, String Methods, Lists, Loops, List Comprehension, File Handling
-- Week 4 - 9/23/2020 -- Python Programming: Sets, Tuples, Dictionaries, Modules, Function Scope 
-- Week 5 - 9/30/2020 -- Python Programming: Lambda, Filter, Map, Generator, Error Handling, Regular Expressions
-- Week 6 - 10/7/2020 -- Python Programming: Object-oriented Programming 
-- Week 7 - 10/14/2020 -- Database Concepts 1 using SQLite3
-- Week 8 - 10/21/2020 -- Database Concepts 2 using SQLite3
-- Week 9 - 10/28/2020 -- Connecting Python and SQLite3
+- Week 1  - 9/2/2020 -- Python Programming: Introduction, Python Basics (data types, mathematical operations, variables), Functions, NBGrader 
+- Week 2  - 9/9/2020 -- Python Programming:  Function Examples, Strings 
+- Week 3  - 9/16/2020 -- Python Programming: Strings Examples, String Methods 
+- Week 4  - 9/23/2020 -- Python Programming: Making Choices/Flow Control/Conditionals Examples, Lists, Tuples, Loops, List Comprehension, File Handling
+- Week 5  - 9/30/2020 -- Python Programming: Lambda, Filter, Map, Generator, Error Handling, Regular Expressions, Function Scope
+- Week 6  - 10/7/2020 -- Python Programming: Object-oriented Programming 
+- Week 7  - 10/14/2020 -- Database Concepts 1 using SQLite3
+- Week 8  - 10/21/2020 -- Database Concepts 2 using SQLite3
+- Week 9  - 10/28/2020 -- Connecting Python and SQLite3
 - Week 10 - 11/4/2020 -- Working with Data: Numpys and Pandas
 - Week 11 - 11/11/2020 -- Visualization: Linking Database to Pandas and Visualization (matplotlib, seaborn, plotly)
 - Week 12 - 11/18/2020 -- Machine Learning with Python 1
@@ -31,16 +31,16 @@
 - Homework will be posted on Sundays @ 9PM EST 
 - Homework will be due on Sundays @ 9PM EST
 - No late homework will be accepted, not even for partial credit
-- Homework 0 -- release date: 9/2/2020; due 9/13/2020 -- Does not count toward grade
-- Homework 1 -- release date: 9/13/2020; due 9/20/2020
-- Homework 2 -- release date: 9/20/2020; due 9/27/2020
-- Homework 3 -- release date: 9/27/2020; due 10/4/2020
-- Homework 4 -- release date: 10/4/2020; due 10/11/2020
-- Homework 5 -- release date: 10/18/2020; due 10/25/2020
-- Homework 6 -- release date: 10/25/2020; due 11/1/2020
-- Homework 7 -- release date: 11/1/2020; due 11/8/2020 
-- Homework 8 -- release date: 11/8/2020; due 11/15/2020 
-- Homework 9 -- release date: 11/15/2020; due 11/22/2020
+- Homework 0  -- release date: 9/2/2020; due 9/13/2020 -- Does not count toward grade
+- Homework 1  -- release date: 9/13/2020; due 9/27/2020
+- Homework 2  -- release date: 9/22/2020; due 9/27/2020
+- Homework 3  -- release date: 9/27/2020; due 10/4/2020
+- Homework 4  -- release date: 10/4/2020; due 10/11/2020
+- Homework 5  -- release date: 10/18/2020; due 10/25/2020
+- Homework 6  -- release date: 10/25/2020; due 11/1/2020
+- Homework 7  -- release date: 11/1/2020; due 11/8/2020 
+- Homework 8  -- release date: 11/8/2020; due 11/15/2020 
+- Homework 9  -- release date: 11/15/2020; due 11/22/2020
 - Homework 10 -- release date: 11/22/2020; due 11/29/2020
 
 ## Lab Dates (Tentative)
