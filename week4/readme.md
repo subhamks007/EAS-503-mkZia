@@ -8,10 +8,10 @@
 
 ## Data Structures (lists, tuples)
 - So far we have covered the following data types: `int`, `float`, and `bool`. Now we will
-cover `list`, `tuple`, `dict`, and `set`. 
+cover `list`, and `tuple` 
 - Data types in Python can be classified as `mutable` and `immutable`. 
 	- Immutable data types are: `int`, `float`, `bool`, and `tuple`
-	- Mutable data types are: `list`, `tuple`, `dict`, and `set`
+	- Mutable data types are: `list`, `dict`, and `set`
 	- NOTE: Immutable data types are passed to a function using `pass-by-value`. Mutable data types are 
 	passed to a function as a reference. This means that changes made to mutable data types persist outside
 	of the function. 
