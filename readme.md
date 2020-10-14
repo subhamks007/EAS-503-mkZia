@@ -18,7 +18,7 @@
 - Week 14 - 12/2/2020 -- ONLINE ONLY -- Machine Learning with Python 1
 - Week 15 - 12/9/2020 -- ONLINE ONLY -- Machine Learning with Python 2
 - Project Presentation Day 1 -- 12/17/2020 5PM-8PM (for students in USA)
-- Project Presentation Day 2 -- 12/18/2020 8PM-11AM (for students outside of USA)
+- Project Presentation Day 2 -- 12/18/2020 8AM-11AM (for students outside of USA)
 
 ## Grading
 - Homework (10) -- 40%
@@ -57,5 +57,5 @@
 - Proposal Due -- 11/6/2020
 - Preliminary Report Due -- 11/24/2020
 - Project Presentation Day 1 -- 12/17/2020 5PM-8PM (for students in USA)
-- Project Presentation Day 2 -- 12/18/2020 8PM-11AM (for students outside of USA)
+- Project Presentation Day 2 -- 12/18/2020 8AM-11AM (for students outside of USA)
 - Final Project Report Due -- 12/21/2020
