@@ -8,8 +8,8 @@
 - Week 5  - 9/30/2020 -- Python Programming: Lists, Tuples, Loops, File Handling
 - Week 6  - 10/7/2020 -- Python Programming: Modify loop execution, while loops, List Comprehension, Sets, 
 - Week 6  - 10/11/2020 -- Python Programming: Dictionaries, Lambda, Filter, Map, Sorting 
-- Week 7  - 10/14/2020 -- Python Programming: Python Errors, Exception Handling, Function Input and Scope, Generator, Object-Oriented Programming 
-- Week 8  - 10/21/2020 -- Python Programming: Object-Oriented Programming continued, Regular Expression
+- Week 7  - 10/14/2020 -- Python Programming: Python Errors, Exception Handling, Function Input and Scope,  Object-Oriented Programming 
+- Week 8  - 10/21/2020 -- Python Programming: Object-Oriented Programming continued, Generator, Regular Expression
 - Week 9  - 10/28/2020 -- Database Concepts: SQLite3
 - Week 10 - 11/4/2020  -- Database Concepts: SQLite3 continued, Python and Database
 - Week 11 - 11/11/2020 -- Working with Data: Numpys, Pandas, Pandas and database
@@ -36,7 +36,7 @@
 - Homework 0  -- release date: 9/2/2020; due 9/13/2020 -- Does not count toward grade
 - Homework 1  -- release date: 9/13/2020; due 9/27/2020
 - Homework 2  -- release date: 9/22/2020; due 10/4/2020
-- Homework 3  -- release date: 9/28/2020; due 10/11/2020
+- Homework 3  -- release date: 9/28/2020; due 10/15/2020
 - Homework 4  -- release date: 10/15/2020; due 10/25/2020
 - Homework 5  -- release date: 10/25/2020; due 11/1/2020
 - Homework 6  -- release date: 11/1/2020; due 11/8/2020 
