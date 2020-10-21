@@ -9,7 +9,7 @@
 - Week 6  - 10/7/2020 -- Python Programming: Modify loop execution, while loops, List Comprehension, Sets, 
 - Week 6  - 10/11/2020 -- Python Programming: Dictionaries, Lambda, Filter, Map, Sorting 
 - Week 7  - 10/14/2020 -- Python Programming: Python Errors, Exception Handling, Function Input and Scope,  Object-Oriented Programming 
-- Week 8  - 10/21/2020 -- Python Programming: Object-Oriented Programming continued, Generator, Regular Expression
+- Week 8  - 10/21/2020 -- Python Programming: Object-Oriented Programming continued, Generators, Iterators
 - Week 9  - 10/28/2020 -- Database Concepts: SQLite3
 - Week 10 - 11/4/2020  -- Database Concepts: SQLite3 continued, Python and Database
 - Week 11 - 11/11/2020 -- Working with Data: Numpys, Pandas, Pandas and database
