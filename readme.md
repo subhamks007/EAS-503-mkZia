@@ -37,13 +37,13 @@
 - Homework 1  -- release date: 9/13/2020; due 9/27/2020
 - Homework 2  -- release date: 9/22/2020; due 10/4/2020
 - Homework 3  -- release date: 9/28/2020; due 10/15/2020
-- Homework 4  -- release date: 10/15/2020; due 10/25/2020
-- Homework 5  -- release date: 10/25/2020; due 11/1/2020
-- Homework 6  -- release date: 11/1/2020; due 11/8/2020 
-- Homework 7  -- release date: 11/8/2020; due 11/15/2020 
-- Homework 8  -- release date: 11/15/2020; due 11/22/2020
-- Homework 9 -- release date: 11/22/2020; due 11/29/2020
-- Homework 10 -- release date: 11/29/2020; due 12/6/2020
+- Homework 4  -- release date: 10/15/2020; due 11/1/2020
+- Homework 5  -- release date: 11/1/2020; due 11/8/2020 
+- Homework 6  -- release date: 11/8/2020; due 11/15/2020 
+- Homework 7  -- release date: 11/15/2020; due 11/22/2020
+- Homework 8 -- release date: 11/22/2020; due 11/29/2020
+- Homework 9 -- release date: 11/29/2020; due 12/6/2020
+- Homework 10 -- release date: 12/6/2020; due 12/13/2020
 
 
 ## Lab Dates (Tentative)
@@ -54,7 +54,7 @@
 
 ## Project Dates (Tentative)
 - Form groups -- 10/16/2020
-- Proposal Due -- 11/6/2020
+- Proposal Due -- 11/8/2020
 - Preliminary Report Due -- 11/24/2020
 - Project Presentation Day 1 -- 12/17/2020 5PM-8PM (for students in USA)
 - Project Presentation Day 2 -- 12/18/2020 8AM-11AM (for students outside of USA)
