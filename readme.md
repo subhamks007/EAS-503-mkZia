@@ -48,7 +48,7 @@
 
 ## Lab Dates (Tentative)
 - No late labs will be accepted, not even for partial credit
-- Lab 1 -- release date: 10/15/2020; due 11/8/2020
+- Lab 1 -- release date: 10/15/2020; due 11/15/2020
 - Lab 2 -- release date: 11/15/2020; due 12/1/2020
 - Lab 3 -- release date: 11/29/2020; due 12/18/2020 
 
