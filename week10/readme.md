@@ -235,7 +235,7 @@ FROM Cars
 
 
 UPDATE MakeModels
-SET Make = 'Camry'
+SET Model = 'Camry'
 WHERE Model = "Camery";
 
 SELECT Cars.car_id, MakeModels.Make, MakeModels.Model, MakeModels.year, Colors.color, Cars.available
