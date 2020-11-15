@@ -21,8 +21,8 @@
 - Project Presentation Day 2 -- 12/18/2020 8AM-11AM (for students outside of USA)
 
 ## Grading
-- Homework (10) -- 40%
-- Labs (3) -- 30%
+- Homework (8) -- 40%
+- Labs (2) -- 30%
 - Project (1) -- 30%
 - No final!
 - Midterm Grades due -- 11/6/2020
@@ -30,27 +30,27 @@
 
 
 ## Homework Dates (Tentative)
-- Homework will be posted on Sundays @ 9PM EST 
-- Homework will be due on Sundays @ 9PM EST
+- Homework will be posted by Sundays @ 11:59 PM EST 
+- Homework will be due on the date listed @ 11:59 PM EST
 - No late homework will be accepted, not even for partial credit
 - Homework 0  -- release date: 9/2/2020; due 9/13/2020 -- Does not count toward grade
 - Homework 1  -- release date: 9/13/2020; due 9/27/2020
 - Homework 2  -- release date: 9/22/2020; due 10/4/2020
 - Homework 3  -- release date: 9/28/2020; due 10/15/2020
 - Homework 4  -- release date: 10/15/2020; due 11/1/2020
-- Homework 5  -- release date: 11/2/2020; due 11/11/2020 
-- Homework 6  -- release date: 11/8/2020; due 11/15/2020 
-- Homework 7  -- release date: 11/15/2020; due 11/22/2020
-- Homework 8 -- release date: 11/22/2020; due 11/29/2020
-- Homework 9 -- release date: 11/29/2020; due 12/6/2020
-- Homework 10 -- release date: 12/6/2020; due 12/13/2020
+- Homework 5  -- release date: 11/2/2020; due 11/13/2020 
+- Homework 6  -- release date: 11/8/2020; due 11/17/2020 
+- Homework 7  -- release date: 11/15/2020; due 11/24/2020
+- Homework 8 -- release date: 11/22/2020; due 12/1/2020
+
 
 
 ## Lab Dates (Tentative)
+- Labs will be due on the date listed @ 11:59 PM EST
 - No late labs will be accepted, not even for partial credit
-- Lab 1 -- release date: 10/15/2020; due 11/15/2020
-- Lab 2 -- release date: 11/15/2020; due 12/1/2020
-- Lab 3 -- release date: 11/29/2020; due 12/18/2020 
+- Lab 1 -- release date: 10/15/2020; due 11/16/2020
+- Lab 2 -- release date: 11/22/2020; due 12/13/2020
+
 
 ## Project Dates (Tentative)
 - Form groups -- 10/16/2020
