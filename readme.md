@@ -21,7 +21,7 @@
 - Project Presentation Day 2 -- 12/18/2020 8AM-11AM (for students outside of USA)
 
 ## Grading
-- Homework (8) -- 40%
+- Homework (7) -- 40%
 - Labs (2) -- 30%
 - Project (1) -- 30%
 - No final!
@@ -40,22 +40,21 @@
 - Homework 4  -- release date: 10/15/2020; due 11/1/2020
 - Homework 5  -- release date: 11/2/2020; due 11/13/2020 
 - Homework 6  -- release date: 11/8/2020; due 11/17/2020 
-- Homework 7  -- release date: 11/15/2020; due 11/24/2020
-- Homework 8 -- release date: 11/22/2020; due 12/1/2020
+- Homework 7  -- release date: 11/15/2020; due 11/27/2020
 
 
 
 ## Lab Dates (Tentative)
 - Labs will be due on the date listed @ 11:59 PM EST
 - No late labs will be accepted, not even for partial credit
-- Lab 1 -- release date: 10/15/2020; due 11/16/2020
-- Lab 2 -- release date: 11/22/2020; due 12/13/2020
+- Lab 1 -- release date: 10/15/2020; due 11/21/2020
+- Lab 2 -- release date: 11/22/2020; due 12/14/2020
 
 
 ## Project Dates (Tentative)
 - Form groups -- 10/16/2020
 - Proposal Due -- 11/8/2020
-- Preliminary Report Due -- 11/24/2020
+- Preliminary Report Due -- 12/2/2020
 - Project Presentation Day 1 -- 12/17/2020 5PM-8PM (for students in USA)
 - Project Presentation Day 2 -- 12/18/2020 8AM-11AM (for students outside of USA)
 - Final Project Report Due -- 12/21/2020
