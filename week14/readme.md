@@ -1,28 +1,34 @@
 # Week 14 Machine Learning with Python
 
 ## Lecture
-- Presentation Expections
+- Presentation Expectations
 - Machine Learning with Python 
 
 
+## General Machine Learning Concept
+- Simplified: in machine learning, a computer is trained to classify new data. Think of it as an input-output device that takes in a number of inputs, and based on the pattern of these inputs, determine the most likely class associated with that data. There
+two main types of learning strategies. 1) Supervised learning where you train the machine using data for which the correct class is known. 2) Unsupervised learning where the classifier itself tries to find patterns within the input data itself. 
+(Biosignal and Medical Image Processing John Semmlow) 
+
 ## General Outline of Machine Learning
-- Loading Data
+
+1. Loading Data
   - Load toy data included in sklearn
   - Download published/annotated data from online
   - Generate data with specific statistics to learn how algorithms work
-- Preprocessing Data
+2. Preprocessing Data
   - Make data zero mean
   - Make data unit variance
   - Fix range of values
   - Deal with missing values
   - Map text labels to integer labels (if applicable)
-- Dimensionality Reduction of data
+3. Dimensionality Reduction of data
   - If you use too many features and do not have enough samples, you could over fit.
   - So you have to choose the most discriminating few features
-- Applying algorithms
+4. Applying algorithms
   - Labeled Data - Supervised 
   - Non-labeled Data - Unsupervised 
-- Evaluation 
+5. Evaluation 
   - Receiver Operator Curve
     - Sensitivity
     - Specificity
