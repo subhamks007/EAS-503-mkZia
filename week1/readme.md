@@ -329,5 +329,4 @@ def f(x):
 - One or more input; no output; example -- print the input
 - One or more input: one or more output; example -- take two numbers and return their sum
 - No input; one or more output; example -- a random number
-
 - Function Exercises 1-12
