@@ -60,20 +60,9 @@ two main types of learning strategies. 1) Supervised learning where you train th
   - SVM using Scikit learn
   - k-Nearest neighbor using Scikit-learn
 
-## Introduction to Scikit-learn 
-  - Choose the right estimator -- the right algorithm for doing ML
-    - https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
-  - Consistent -- all object share a common interface
-  - Inspection -- all parameter values are exposed as public attributes
-  - Limited object Hierarchy -- algorithms are represented as Python classes, datasets mainly as numpy array and parameters as standard python strings 
-  - Composition -- ML as a sequences of fundamental algorithms
-  - Defaults -- provides good default values
-
-### High Level Steps
-  - Choose the class of model to be coded
-  - Choose the hyper parameters of the model
-  - Arrange data into target and features
-  - Write model fitment code using fit() method. 
+## Scikit-learn 
+- https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+  
 
 ### General Steps
   - Load Data

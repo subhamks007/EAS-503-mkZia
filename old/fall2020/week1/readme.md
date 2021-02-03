@@ -81,6 +81,8 @@ to do based on the current information you have, and much more.
 - <strong>Bad code can be ambiguous due to human error. To the machine it is not ambiguous.</strong> When this happens, the program might behave unexpectedly. This unexpected behavior is called a bug!
 
 
+    
+
 ## Syntax, Expressions, Values, Operators, and Operands 
 - The `syntax` of a computer language is the set of rules that defines the combinations of symbols that are considered to be correctly structured (Wiki).
 - An `expression` is a syntactic entity in a programming language that may be evaluated to determine its value (Wiki).
@@ -152,52 +154,52 @@ values of its customers’ savings accounts.
 to largest in order to minimize the error.
 
 #### Identifiers, Naming Variables in Python, Remembering Values
-- Variables give names to values (number, string, or boolean); Technically they are called identifiers. They are a container of information that a computer program will manipulate using a sequence of instructions. 
-- Variables names MUST follow certain rules and it is BEST to follow Python guidelines for naming 
-- Restrictions for identifiers or naming things in Python
-  1. Start with letter or underscore
-  2. The rest can have letters, underscore, and numbers
-  3. symbols cannot be used in name (@,+)
-  4. Don't use Python keywords or reserved words such as `print`, `str`, `int`, `float`
-    - `int = 3` do `del int` to restore python keyword
-    - `print = Yah` do `del print` to restore Python keyword
-- Conventions for identifiers or naming things in Python
-  1. use snake_case not camelCase
-  2. variables should be lowercase
-  3. upper case are used for constants PI = 3.14
-  4. UpperCamelCase for classes
-  5. `__private__`  double underscore is convention that means you are not supposed access this variable directly. They are by convention like private variables in other languages. 
+  - Variables give names to values (number, string, or boolean); Technically they are called identifiers. They are a container of information that a computer program will manipulate using a sequence of instructions. 
+  - Variables names MUST follow certain rules and it is BEST to follow Python guidelines for naming 
+  - Restrictions for identifiers or naming things in Python
+    1. Start with letter or underscore
+    2. The rest can have letters, underscore, and numbers
+    3. symbols cannot be used in name (@,+)
+    4. Don't use Python keywords or reserved words such as `print`, `str`, `int`, `float`
+      - `int = 3` do `del int` to restore python keyword
+      - `print = Yah` do `del print` to restore Python keyword
+  - Conventions for identifiers or naming things in Python
+    1. use snake_case not camelCase
+    2. variables should be lowercase
+    3. upper case are used for constants PI = 3.14
+    4. UpperCamelCase for classes
+    5. `__private__`  double underscore is convention that means you are not supposed access this variable directly. They are by convention like private variables in other languages. 
 
 #### Working with Variables
-- `x = 503`;  
-- `y = "EAS503"`
-- `print(x)`
-- `print(y)`
-- `y = 34` this is allowed because you can reassign value of a variable with the new value having a different data type in Python;
-This is called Dynamic typing;  C++ statically-typed -- cannot change the variable type. Define variable and variable definition will be enforced
-- `x = 3.9 * x * (1 - x)`
-- `x = 10`
-- `x = 11`
-  - A variable in Python is like a sticky note on a value. When you change the variable, the sticky note changes to a different value. The variable simply switches to refer to the new value. The old value is not erased immediately. Python has automatic garbage collection.
-- `name = input("What is your name? ")` -- used to prompt user for input; the `name` variable will be a <strong>string!</strong>
-  - avoid using `eval` for type casting, meaning changing type of variable from one type to another.
-- `sum, diff = x+y, x-y` -- simultaneous assignment 
-  - useful when you want to swap values
-    - So instead of doing this:
+  - `x = 503`;  
+  - `y = "EAS503"`
+  - `print(x)`
+  - `print(y)`
+  - `y = 34` this is allowed because you can reassign value of a variable with the new value having a different data type in Python;
+  This is called Dynamic typing;  C++ statically-typed -- cannot change the variable type. Define variable and variable definition will be enforced
+  - `x = 3.9 * x * (1 - x)`
+  - `x = 10`
+  - `x = 11`
+    - A variable in Python is like a sticky note on a value. When you change the variable, the sticky note changes to a different value. The variable simply switches to refer to the new value. The old value is not erased immediately. Python has automatic garbage collection.
+  - `name = input("What is your name? ")` -- used to prompt user for input; the `name` variable will be a <strong>string!</strong>
+    - avoid using `eval` for type casting, meaning changing type of variable from one type to another.
+  - `sum, diff = x+y, x-y` -- simultaneous assignment 
+    - useful when you want to swap values
+      - So instead of doing this:
 
-    ``` Python
-      temp = x
-      x = y
-      y = temp
-    ```
-   -  do:
-      - `x, y = y, x`
+      ``` Python
+        temp = x
+        x = y
+        y = temp
+      ```
+     -  do:
+        - `x, y = y, x`
+ 
 
-
-- `+=` - `x += 3` is the same as `x = x + 3`
-- `-=` - `x -= 3` is the same as `x = x - 3`
-- `*=` - `x *= 3` is the same as `x = x * 3`
-- `/=` - `x /= 3` is the same as `x = x / 3`
+  - `+=` - `x += 3` is the same as `x = x + 3`
+  - `-=` - `x -= 3` is the same as `x = x - 3`
+  - `*=` - `x *= 3` is the same as `x = x * 3`
+  - `/=` - `x /= 3` is the same as `x = x / 3`
 
 
 
@@ -323,11 +325,3 @@ def f(x):
     return pow(x, 2)
 ```
 
-
-#### Variations in functions
-- No input; no output; example -- print something
-- One or more input; no output; example -- print the input
-- One or more input: one or more output; example -- take two numbers and return their sum
-- No input; one or more output; example -- a random number
-
-- Function Exercises 1-12
