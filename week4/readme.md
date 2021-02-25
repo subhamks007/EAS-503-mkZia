@@ -119,7 +119,7 @@ all(booleans)
 - `pop()` - remove the last element in the list; also returns the value; you can save this to another variable
 - `clear()` - empty the list
 - `index()` - return position of first matching element
-- `count()` - return the number of elements in the list
+- `count()` - count the number of elements
 - `sort()` - sort the list in place 
 - `reverse()` - reverse the list in place
 
@@ -131,7 +131,7 @@ grades.insert(4, 'F')
 grades.remove(2)
 grades.pop()
 grades.index('C')
-grades.count() # len(grades)
+grades.count('C') # len(grades)
 grades.sort()
 grades.reverse()
 ```
@@ -168,7 +168,7 @@ while <condition>
 
 
 ```python
-range(start:stop:step) # [start:step:stop)
+range(start:stop:step) # [start:stop:step)
 
 ```
 
@@ -424,8 +424,6 @@ dict(zip(list1,list2))
 {num: ("even" if num % 2 == 0 else "odd") for num in range(1, 20)}
 
 ```
-
-
 
 ## Lambda, Filter, and Map
 
