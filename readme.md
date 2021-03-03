@@ -5,8 +5,8 @@
 - Week 2  - 2/10/2021 -- Python Programming: Function Examples, Strings, Strings Examples, String Methods
 - Week 3  - 2/17/2021 -- Python Programming: Making Choices/Flow Control/Conditionals Examples, 
 - Week 4  - 2/24/2021 -- Python Programming: Lists, Tuples, Loops, File Handling, Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, 
-- Week 5  - 3/3/2021 -- Python Programming: Python Errors, Exception Handling, Function Input and Scope, Object-Oriented Programming
-- Week 6  - 3/10/2021 -- Python Programming:  Object-Oriented Programming
+- Week 5  - 3/3/2021 -- Python Programming: Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, Matplotlib
+- Week 6  - 3/10/2021 -- Python Programming: Python Errors, Exception Handling, Function Input and Scope, Object-Oriented Programming
 - Week 7  - 3/17/2021 -- Python Programming: Generators, Iterators, Regular Expressions
 - Week 8  - 3/24/2021 -- Python Programming: Catch-up Week
 - Week 9  - 3/31/2021 -- Database Concepts: SQLite3

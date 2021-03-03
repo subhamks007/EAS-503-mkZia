@@ -168,7 +168,7 @@ while <condition>
 
 
 ```python
-range(start:stop:step) # [start:stop:step)
+range(start,stop,step) # (start,stop,step)
 
 ```
 
