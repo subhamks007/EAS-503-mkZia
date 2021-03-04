@@ -1,6 +1,6 @@
-# Week4
+# Week5
 
-## Week 4 Topics
+## Week 5 Topics
 - For loops
 - Modify loop execution
 - while loops
@@ -12,7 +12,6 @@
 - Map
 - Sorting
 - Matplotlib
-
 
 
 ## Repeating code using loops
