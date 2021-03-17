@@ -7,8 +7,8 @@
 - Week 4  - 2/24/2021 -- Python Programming: Lists, Tuples, Loops, File Handling, Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, 
 - Week 5  - 3/3/2021 -- Python Programming: Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, Matplotlib Part 1
 - Week 6  - 3/10/2021 -- Python Programming: Lambda, Filter, Map, Sorting,
-- Week 7  - 3/17/2021 -- Python Programming:  Python Errors, Exception Handling, Matplotlib Part 2, Function Input and Scope
-- Week 8  - 3/24/2021 -- Python Programming: Object-Oriented Programming, Generators, Iterators, Regular Expressions
+- Week 7  - 3/17/2021 -- Python Programming:  Python Errors, Exception Handling, Matplotlib Part 2, Function Input and Scope, Object-Oriented Programming
+- Week 8  - 3/24/2021 -- Python Programming: Object-Oriented Programming continued, Generators, Iterators, Regular Expressions
 - Week 9  - 3/31/2021 -- Database Concepts: SQLite3
 - Week 10  - 4/7/2021 -- Database Concepts: SQLite3 continued, Python and Database
 - Week 11 - 4/14/2021  -- Working with Data: Numpys, Pandas, Pandas and database
