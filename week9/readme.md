@@ -16,8 +16,8 @@
     - variables (properties)
         - lastname
         - firstname
-    - social_security_number
-        - functions (methods)
+        - social_security_number
+    - functions (methods)
         - __repr__ -- 
         - earnings() -- 
 - SalariedEmployee -- inherits from Employee
