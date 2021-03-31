@@ -19,7 +19,7 @@
     - social_security_number
         - functions (methods)
         - __repr__ -- 
-    - earnings() -- 
+        - earnings() -- 
 - SalariedEmployee -- inherits from Employee
 - CommissionEmployee -- inherits from Employee
 - Hour9yEmployee -- inherits from Employee
