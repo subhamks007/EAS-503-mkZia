@@ -14,11 +14,11 @@
 #### Payroll system using polymorphism
 - Employee -- Abstract
     - variables (properties)
-    - lastname
-    - firstname
+        - lastname
+        - firstname
     - social_security_number
-    - functions (methods)
-    - __repr__ -- 
+        - functions (methods)
+        - __repr__ -- 
     - earnings() -- 
 - SalariedEmployee -- inherits from Employee
 - CommissionEmployee -- inherits from Employee
