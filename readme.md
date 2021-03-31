@@ -9,7 +9,7 @@
 - Week 6  - 3/10/2021 -- Python Programming: Lambda, Filter, Map, Sorting,
 - Week 7  - 3/17/2021 -- Python Programming: Python Errors, Exception Handling, Matplotlib Part 2
 - Week 8  - 3/24/2021 -- Python Programming: Function Input, Scope, Object-Oriented Programming, Generators, and Iterators
-- Week 9  - 3/31/2021 -- Database Concepts: SQLite3
+- Week 9  - 3/31/2021 -- Object-Oriented Programming, Generators, and Iterators; Database Concepts: SQLite3
 - Week 10  - 4/7/2021 -- Database Concepts: SQLite3 continued, Python and Database
 - Week 11 - 4/14/2021  -- Working with Data: Numpys, Pandas, and database
 - Week 12 - 4/21/2021 -- Visualization: Linking Database to Pandas and Visualization (matplotlib, seaborn, plotly)
@@ -45,5 +45,5 @@
 - Labs will be due on the date listed @ 11:59 PM EST
 - No late labs will be accepted, not even for partial credit
 - Lab 1 -- release date: 3/21/2021; due 4/11/2021
-- Lab 2 -- release date: 4/11/2021; due 4/25/2021
-- Lab 3 -- release date: 4/25/2021; due 5/14/2021
+- Lab 2 -- release date: 4/18/2021; due 5/2/2021
+- Lab 3 -- release date: 5/2/2021; due 5/14/2021
