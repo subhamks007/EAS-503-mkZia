@@ -22,7 +22,7 @@
         - earnings() -- 
 - SalariedEmployee -- inherits from Employee
 - CommissionEmployee -- inherits from Employee
-- Hour9yEmployee -- inherits from Employee
+- HourlyEmployee -- inherits from Employee
 - BasePlusCommissionEmployee -- inherits from CommissionEmployee
 
 - Demonstrate polymorphism
