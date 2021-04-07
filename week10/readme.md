@@ -47,6 +47,7 @@ create table students (last_name TEXT, first_name TEXT, username TEXT, exam1 INT
 .import students.tsv Students
 .save student.db
 .headers ON
+.mode column
 ```
 
 ## Basic commands -- Part I
