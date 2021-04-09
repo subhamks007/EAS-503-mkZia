@@ -3,7 +3,7 @@
 ## Topics (Tentative)
 - Week 1  - 2/3/2021 -- Python Programming: Introduction, Python Basics (data types, mathematical operations, variables), Functions, NBGrader 
 - Week 2  - 2/10/2021 -- Python Programming: Function Examples, Strings, Strings Examples, String Methods
-- Week 3  - 2/17/2021 -- Python Programming: Making Choices/Flow Control/Conditionals Examples, 
+- Week 3  - 2/17/2021 -- Python Programming: Making Choices/Flow Control/Conidtionals Examples, 
 - Week 4  - 2/24/2021 -- Python Programming: Lists, Tuples, Loops, File Handling, Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, 
 - Week 5  - 3/3/2021 -- Python Programming: Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, Matplotlib Part 1
 - Week 6  - 3/10/2021 -- Python Programming: Lambda, Filter, Map, Sorting,
@@ -18,8 +18,8 @@
 
 
 ## Grading
-- Homework (9) -- 55%
-- Labs (3) -- 45%
+- Homework (8) -- 55%
+- Labs (2) -- 45%
 - No final!
 - Midterm Grades due -- 3/19/2021
 - Final Grades due -- ???
@@ -34,16 +34,14 @@
 - Homework 2  -- release date: 2/14/2021; due 2/21/2021
 - Homework 3  -- release date: 2/21/2021; due 3/7/2021
 - Homework 4  -- release date: 3/8/2021; due 3/22/2021
-- Homework 5  -- release date: 3/28/2021; due 4/4/2021 
-- Homework 6  -- release date: 4/4/2021; due 4/11/2021
-- Homework 7  -- release date: 4/18/2021; due 4/28/2021
-- Homework 8  -- release date: 4/25/2021; due 5/2/2021
-- Homework 9  -- release date: 5/2/2021; due 5/9/2021 
+- Homework 5  -- release date: 4/8/2021; due 4/18/2021 
+- Homework 6  -- release date: 4/18/2021; due 4/25/2021
+- Homework 7  -- release date: ??; due ??
+- Homework 8  -- release date: ??; due ??
 
 
 ## Lab Dates (Tentative)
 - Labs will be due on the date listed @ 11:59 PM EST
 - No late labs will be accepted, not even for partial credit
 - Lab 1 -- release date: 3/21/2021; due 4/11/2021
-- Lab 2 -- release date: 4/18/2021; due 5/2/2021
-- Lab 3 -- release date: 5/2/2021; due 5/14/2021
+- Lab 2 -- release date: 4/25/2021; due 5/9/2021
