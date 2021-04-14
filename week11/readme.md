@@ -71,7 +71,7 @@ CREATE TABLE Courses(
   CourseShortID   TEXT NOT NULL,
   TeacherId INTEGER NOT NULL,
   FOREIGN KEY(TeacherId) REFERENCES Teachers(TeacherId)
-  åUNIQUE (CourseName, CourseShortID)
+  UNIQUE (CourseName, CourseShortID)
 );
 
 INSERT INTO Teachers (TeacherName, TeacherEmployeeID)
@@ -360,98 +360,6 @@ FROM Cars
 
 ```
 
-
-### Altering Tables
- - Can easily add columns to tables
- - Can easily rename tables 
- - To change data type, add/remove restriction, or change column name, you have to create a new table and populate it with old data
- - Can drop a column by using select statement and saving the output to another table
-
-
-```
-PRAGMA foreign_keys = ON
-DROP TABLE Cars;
-DROP TABLE MakeModels;
-DROP TABLE Colors;
-
-CREATE TABLE Colors (
-   color_id INTEGER NOT NULL PRIMARY KEY,
-   color  TEXT NOT NULL,
-   UNIQUE (color)
-);
-
-CREATE TABLE MakeModels (
-  make_model_id     INTEGER NOT NULL PRIMARY KEY, 
-  Make   TEXT NOT NULL,
-  Model   TEXT NOT NULL,
-  Year INTEGER NOT NULL,
-  UNIQUE (Make, Model)
-);
-
-CREATE TABLE Cars (
-   car_id INTEGER NOT NULL PRIMARY KEY,
-   make_model_id INTEGER NOT NULL,
-   color_id INTEGER NOT NULL,
-   available INTEGER NOT NULL,
-   FOREIGN KEY(make_model_id) REFERENCES MakeModels(make_model_id),
-   FOREIGN KEY(color_id) REFERENCES Colors(color_id)
-);
-
-INSERT INTO Colors (color) VALUES ('Red');
-INSERT INTO Colors (color) VALUES ('Blue');
-INSERT INTO Colors (color) VALUES ('Greene');
-
-INSERT INTO MakeModels (Make, Model, Year) VALUES ('Ford', 'Explorer', 2019);
-INSERT INTO MakeModels (Make, Model, Year) VALUES ('Toyota', 'Camry', 2010);
-INSERT INTO MakeModels (Make, Model, Year) VALUES ('Honda', 'Accord', 2015);
-
-INSERT INTO Cars (make_model_id, color_id, available) VALUES (1, 1, 1);
-INSERT INTO Cars (make_model_id, color_id, available) VALUES (2, 1, 1);
-INSERT INTO Cars (make_model_id, color_id, available) VALUES (3, 1, 1);
-INSERT INTO Cars (make_model_id, color_id, available) VALUES (1, 2, 0);
-INSERT INTO Cars (make_model_id, color_id, available) VALUES (1, 2, 0);
-INSERT INTO Cars (make_model_id, color_id, available) VALUES (3, 2, 0);
-INSERT INTO Cars (make_model_id, color_id, available) VALUES (2, 3, 0);
-
-.header on 
-SELECT * FROM Colors;
-SELECT * FROM MakeModels;
-SELECT * FROM Cars;
-
-
-SELECT Cars.car_id, MakeModels.Make, MakeModels.Model, MakeModels.year, Colors.color, Cars.available
-FROM Cars
-    INNER JOIN MakeModels ON MakeModels.make_model_id = Cars.make_model_id
-    INNER JOIN Colors ON Colors.color_id = Cars.color_id;
-
-```
-
-
-
-
-### Backup a single table
-```
-.output dump.sql
-.dump <table_name>
-.output stdout
-```
-
-
-### Backup whole database
-```
-.output dump.sql
-.dump
-.output stdout
-```
-
-## Using SQLite with Python
-- see file
-```
-py_sqlite_ex1.py.ipynb
-```
-
-
-## More Commands Part II
 
 ### Foreign Key
 - What is a foreign key? In a relational database, you can relate one table to another table. The two
