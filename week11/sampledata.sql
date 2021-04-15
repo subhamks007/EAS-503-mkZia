@@ -1,6 +1,6 @@
 CREATE TABLE [Departments] (  
     [DepartmentId] INTEGER  NOT NULL PRIMARY KEY,  
-    [DepartmentName] NVARCHAR(50)  NULL  
+    [DepartmentName] TEXT NULL  
 );  
 INSERT INTO Departments VALUES(1, 'IT');
 INSERT INTO Departments VALUES(2, 'Physics');
@@ -9,7 +9,7 @@ INSERT INTO Departments VALUES(4, 'Math');
 
 CREATE TABLE [Students] (  
     [StudentId] INTEGER  PRIMARY KEY NOT NULL,  
-    [StudentName] NVARCHAR(50) NOT NULL,  
+    [StudentName] TEXT NOT NULL,  
     [DepartmentId] INTEGER  NULL, 
     [DateOfBirth] DATE NULL,
     FOREIGN KEY(DepartmentId) REFERENCES Departments(DepartmentId)
@@ -27,7 +27,7 @@ INSERT INTO Students VALUES(10, 'George', NULL, '1998-10-12');
 
 CREATE TABLE [Tests] (
     [TestId] INTEGER NOT NULL PRIMARY KEY,
-    [TestName] NVARCHAR(50) NOT NULL,
+    [TestName] TEXT NOT NULL,
     [TestDate] DATE NULL
 );
 INSERT INTO [Tests] VALUES(1, 'Mid Term IT Exam', '2015-10-18');
