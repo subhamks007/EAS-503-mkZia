@@ -45,9 +45,3 @@
 - No late labs will be accepted, not even for partial credit
 - Lab 1 -- release date: 3/21/2021; due 4/11/2021
 - Lab 2 -- release date: 4/28/2021; due 5/16/2021
-
-
-Hw6 -- Release: 4/21; Due 4/28;
-Hw7 -- Release: 4/28; Due 5/16
-Hw8 -- Release: 5/2; Due 5/16
-Lab2 -- Release: 4/28; Due 5/16
