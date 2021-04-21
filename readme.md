@@ -35,13 +35,19 @@
 - Homework 3  -- release date: 2/21/2021; due 3/7/2021
 - Homework 4  -- release date: 3/8/2021; due 3/22/2021
 - Homework 5  -- release date: 4/8/2021; due 4/18/2021 
-- Homework 6  -- release date: 4/18/2021; due 4/25/2021
-- Homework 7  -- release date: ??; due ??
-- Homework 8  -- release date: ??; due ??
+- Homework 6  -- release date: 4/21/2021; due 4/28/2021
+- Homework 7  -- release date: 4/28/2021; due 5/16/2021
+- Homework 8  -- release date: 5/2/2021; due 5/16/2021
 
 
 ## Lab Dates (Tentative)
 - Labs will be due on the date listed @ 11:59 PM EST
 - No late labs will be accepted, not even for partial credit
 - Lab 1 -- release date: 3/21/2021; due 4/11/2021
-- Lab 2 -- release date: 4/25/2021; due 5/9/2021
+- Lab 2 -- release date: 4/28/2021; due 5/16/2021
+
+
+Hw6 -- Release: 4/21; Due 4/28;
+Hw7 -- Release: 4/28; Due 5/16
+Hw8 -- Release: 5/2; Due 5/16
+Lab2 -- Release: 4/28; Due 5/16
