@@ -863,7 +863,10 @@ np.sort(data['exam1'].unique())
 ## Example5 in pandas
 
 ## More examples
+
 ```
 import pandas as pd
 data = pd.read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/airline-safety/airline-safety.csv")
 ```
+
+Ref: https://www.kaggle.com/syedmubarak/pandas-75-exercises-with-solutions
