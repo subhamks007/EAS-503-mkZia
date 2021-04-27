@@ -336,9 +336,11 @@ print(vector)
 ```
 
 - Copy the array if you need a copy
+```python
 vector = np.array(range(10))
 my_slice_copy = vector[3:7].copy()
 print(vector)
+```
 
 ## Indexing a 2-D array -- Matrix
 - Remember -- Python is zero-indexed
@@ -412,7 +414,7 @@ np.sin(vector)
 matrix = np.random.rand(5,5)
 np.floor(matrix*1000)/1000
 np.round(matrix*1000)/1000
-np.floor(matrix*1000)/1000
+np.ceil(matrix*1000)/1000
 
 matrix = np.arange(1,10).reshape(3,3)
 matrix.sum(axis=1) 
