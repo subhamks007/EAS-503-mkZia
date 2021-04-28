@@ -1,4 +1,4 @@
-# Week 12 Relational Database (SQL) 
+# Week 13 Pandas and Machine Learning
 
 ## Topics
 - Pandas
