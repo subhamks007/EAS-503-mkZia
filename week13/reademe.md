@@ -284,7 +284,7 @@ data[['StudentName', 'Mark', 'DepartmentName']]
 ## Concatenation
 ```python
 d1 = {
-    'C0': ['COR0', 'COR1', 'COR2'],
+    'C0': ['C0R0', 'C0R1', 'C0R2'],
     'C1': ['C1R0', 'C1R1', 'C2R2'],
     'C2': ['C2R0', 'C2R1', 'C2R2'],
 }
@@ -347,7 +347,7 @@ data['DepartmentName'].value_counts()
 data[data['Mark']>17]  
 ```
 
-## Lambda with Pandas
+## Lambdas with Pandas
 - Scale marks by 5 
 ```python
 
