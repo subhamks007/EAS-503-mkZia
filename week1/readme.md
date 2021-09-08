@@ -120,6 +120,7 @@ to do based on the current information you have, and much more.
 - Ints vs Floats
   - Stored differently
   - Floats take up a set amount of space. Ints take up variable amount of space. Ints are stored as bignum data type behind the scenes. 
+  
   ```python
   import sys
   sys.getsizeof(2.0)
@@ -129,8 +130,7 @@ to do based on the current information you have, and much more.
   sys.getsizeof(2**130)
   Out[6]: 44
   ```
-  
-  ```
+
   - Ints and floats both can have positive and negative
   - `type()` -- used to figure out which type of data type it is
 - Why use ints? 
