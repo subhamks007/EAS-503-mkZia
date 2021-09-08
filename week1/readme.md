@@ -119,11 +119,22 @@ to do based on the current information you have, and much more.
   - complex - `7+3j`
 - Ints vs Floats
   - Stored differently
-  - floats take more space than int
+  - Floats take up a set amount of space. Ints take up variable amount of space. Ints are stored as bignum data type behind the scenes. 
+  ```python
+  import sys
+  sys.getsizeof(2.0)
+  Out[3]: 24
+  sys.getsizeof(2**30)
+  Out[4]: 32
+  sys.getsizeof(2**130)
+  Out[6]: 44
+  ```
+  
+  ```
   - Ints and floats both can have positive and negative
   - `type()` -- used to figure out which type of data type it is
 - Why use ints? 
-  - The underlying algorithms that perform computer arithmetic are simpler, and can therefore be faster, for ints than the more general algorithms required for float values. Maybe not the case anymore?
+  - The underlying algorithms that perform computer arithmetic are simpler, and can therefore be faster for ints than the more general algorithms required for float values. Maybe not the case anymore?
 - Float can only represent approximations to real numbers
   - `2/3` vs `1/3`
 - If you do not need fraction values, use int.
