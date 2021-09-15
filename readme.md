@@ -3,8 +3,8 @@
 ## Topics (Tentative)
 - Week 1  - 9/1/2021 -- Python Programming: Introduction, Python Basics (data types, mathematical operations, variables), Functions, NBGrader 
 - Week 2  - 9/8/2021 -- Python Programming: Function Examples, Strings, Strings Examples, String Methods
-- Week 3  - 9/15/2021 -- Python Programming: Making Choices/Flow Control/Conidtionals Examples, 
-- Week 4  - 9/22/2021 -- Python Programming: Lists, Tuples, Loops, File Handling, Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, 
+- Week 3  - 9/15/2021 -- Python Programming: Making Choices/Flow Control/Conditionals Examples, Lists, Tuples, Loops, File Handling, Modify loop execution, while loops, List Comprehension
+- Week 4  - 9/22/2021 -- Python Programming: Sets, Dictionaries, Lambda, Filter, Map, Sorting, 
 - Week 5  - 9/29/2021 -- Python Programming: Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, Matplotlib Part 1
 - Week 6  - 10/6/2021 -- Python Programming: Lambda, Filter, Map, Sorting,
 - Week 7  - 10/13/2021 -- Python Programming: Python Errors, Exception Handling, Matplotlib Part 2
