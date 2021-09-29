@@ -181,19 +181,6 @@ for item in info:
 - Do while loop exercises
 
 
-### List comprehension
-- Unique to Python
-- Three variations
-
-```python
-[ f(ele) for ele in sequence ]
-
-[ f(ele) for ele in sequence if condition ]
-
-[ f(ele) if condition else g(ele) for ele in sequence ]
-
-```
-
 ### File Handling
 
 

@@ -3,12 +3,12 @@
 ## Topics (Tentative)
 - Week 1  - 9/1/2021 -- Python Programming: Introduction, Python Basics (data types, mathematical operations, variables), Functions, NBGrader 
 - Week 2  - 9/8/2021 -- Python Programming: Function Examples, Strings, Strings Examples, String Methods
-- Week 3  - 9/15/2021 -- Python Programming: Making Choices/Flow Control/Conditionals Examples, Lists, Tuples, Loops, File Handling, Modify loop execution, while loops, List Comprehension
-- Week 4  - 9/22/2021 -- Python Programming: Sets, Dictionaries, Lambda, Filter, Map, Sorting, 
-- Week 5  - 9/29/2021 -- Python Programming: Modify loop execution, while loops, List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting, Matplotlib Part 1
-- Week 6  - 10/6/2021 -- Python Programming: Lambda, Filter, Map, Sorting,
-- Week 7  - 10/13/2021 -- Python Programming: Python Errors, Exception Handling, Matplotlib Part 2
-- Week 8  - 10/20/2021 -- Python Programming: Function Input, Scope, Object-Oriented Programming, Generators, and Iterators
+- Week 3  - 9/15/2021 -- Python Programming: Making Choices/Flow Control/Conditionals Examples, , List Comprehension
+- Week 4  - 9/22/2021 -- Python Programming: Lists, Tuples, Loops, File Handling, Modify loop execution, while loops, modify loop execution
+- Week 5  - 9/29/2021 -- Python Programming: List Comprehension, Sets, Dictionaries, Lambda, Filter, Map, Sorting
+- Week 6  - 10/6/2021 -- Python Programming: Python Errors, Exception Handling, Function Input, Scope
+- Week 7  - 10/13/2021 -- Python Programming: Object-Oriented Programming, Generators, and Iterators
+- Week 8  - 10/20/2021 -- Python Programming: Matplotlib
 - Week 9  - 10/27/2021 -- Object-Oriented Programming, Generators, and Iterators; Database Concepts: SQLite3
 - Week 10  - 11/3/2021 -- Database Concepts: SQLite3 continued, Python and Database
 - Week 11 - 11/10/2021  -- Working with Data: Numpys, Pandas, and database
