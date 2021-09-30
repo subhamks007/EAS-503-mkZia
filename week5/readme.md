@@ -73,7 +73,7 @@ my_list = list(set(my_list))
 - my_dict = {}
 - my_dict = dict()
 - key value are separate colons
-- key can only be string or number
+- key can only be any immutable data type: str, int, float, tuple, bool
 - value can be anything!
 - All information is stored like a dictionary, you supply the key and you get the value
 
