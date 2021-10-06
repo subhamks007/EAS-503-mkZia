@@ -276,6 +276,7 @@ id(x_lst[1])
 - scope example 1 & 2
 
 ### Object Oriented Programming
+- https://web.mit.edu/javadev/doc/tutorial/java/objects/class.html
 - oop_example1.py
 - oop_example2.py
 - Payroll system example 
