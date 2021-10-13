@@ -33,7 +33,7 @@
 - Homework 1  -- release date: 9/12/2021; due 9/19/2021
 - Homework 2  -- release date: 9/19/2021; due 9/26/2021
 - Homework 3  -- release date: 9/26/2021; due 10/10/2021
-- Homework 4  -- release date: 10/10/2021; due 10/17/2021
+- Homework 4  -- release date: 10/10/2021; due 10/26/2021
 - Homework 5  -- release date: 10/24/2021; due 10/31/2021 
 - Homework 6  -- release date: 10/31/2021; due 11/7/2021
 - Homework 7  -- release date: 11/21/2021; due 11/28/2021
