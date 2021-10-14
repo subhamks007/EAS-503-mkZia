@@ -103,7 +103,7 @@ inherits from its parent class attributes and methods, reducing code repetition 
 
 
 ###### Thoughts on OOP
-- In Python everything is an object, which means every entity has some attributes and associated functionality called methods. This means that `str` and `dict` are classes that know how to store data and how to operator on them. 
+- In Python everything is an object, which means every entity has some attributes and associated functionality called methods. This means that `str` and `dict` are classes that know how to store data and how to operate on them. 
 - Do not overdo OOP. It is possible to create a very large object which then basically functions like a procedural system disguised as an object-oriented one. 
 
 
