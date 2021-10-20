@@ -24,7 +24,6 @@
 - BasePlusCommissionEmployee -- inherits from CommissionEmployee
 
 - Demonstrate polymorphism
-- operator overloading 
 
 #### Operator overloading
 - We know how to create objects. Now we will learn how to define what +, -, or lte means for an object
