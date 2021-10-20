@@ -283,10 +283,11 @@ SELECT * FROM Teachers;
 
 ### Foreign Key
 - What is a foreign key? In a relational database, you can relate one table to another table. The two
-tables can be related if and only if both tables have one column in common. This column has to be declared as a INTEGER data type that cannot
-be NULL and has the `PRIMARY KEY` constraint -- example: ColumnName INTEGER NOT NULL PRIMARY KEY;
-- IMPORTANT: Foreign key constraint is not enabled by default in SQLite
-
+tables can be related if and only if both tables have one column in common. This column has to be declared as a INTEGER/TEXT data type that cannot be NULL and has the `PRIMARY KEY` constraint -- example: ColumnName INTEGER NOT NULL PRIMARY KEY;
+- IMPORTANT: Foreign key constraint is NOT enabled by default in SQLite
+- Prefer INTEGER over TEXT:
+  - https://stackoverflow.com/questions/3162202/sql-primary-key-integer-vs-varchar
+  - https://stackoverflow.com/questions/9206391/int-vs-varchar-datatype-for-primary-keys
 
 ### Create relationship
 ```
