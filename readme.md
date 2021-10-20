@@ -8,7 +8,7 @@
 - Week 5  - 9/29/2021 -- Python Programming: List Comprehension, Sets, Dictionaries
 - Week 6  - 10/6/2021 -- Python Programming: Lambda, Filter, Map, Sorting, Python Errors, Exception Handling, Function Input, Scope
 - Week 7  - 10/13/2021 -- Python Programming: Object-Oriented Programming, Generators, and Iterators
-- Week 8  - 10/20/2021 -- Database Concepts: SQLite3
+- Week 8  - 10/20/2021 -- Python Programming: Object-Oriented Programming, Generators, and Iterators continued; Database Concepts: SQLite3
 - Week 9  - 10/27/2021 -- Database Concepts: SQLite3 continued, Python and Database
 - Week 10  - 11/3/2021 -- Working with Data: Numpys, Pandas, and database
 - Week 11 - 11/10/2021 -- Visualization: matplotlib, seaborn, plotly
