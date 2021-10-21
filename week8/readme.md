@@ -195,7 +195,7 @@ WHERE first_name LIKE '%ath%';
 SELECT exam1, count(exam1) as c  FROM students GROUP BY exam1 ORDER BY c DESC;
 SELECT first_name, count(first_name) as name_count  FROM students GROUP BY first_name ORDER BY name_count DESC;
 ```
-
+--------------------------------
 
 ### Adding null values
 ```
