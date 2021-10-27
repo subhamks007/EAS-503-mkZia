@@ -264,7 +264,7 @@ CREATE TABLE MakeModels (
   Make   TEXT NOT NULL,
   Model   TEXT NOT NULL,
   Year INTEGER NOT NULL,
-  UNIQUE (Make, Model)
+  UNIQUE (Make, Model, Year)
 );
 
 CREATE TABLE Cars (
@@ -323,7 +323,7 @@ CREATE TABLE MakeModels (
   Make   TEXT NOT NULL,
   Model   TEXT NOT NULL,
   Year INTEGER NOT NULL,
-  UNIQUE (Make, Model)
+  UNIQUE (Make, Model, Year)
 );
 
 CREATE TABLE Cars (
