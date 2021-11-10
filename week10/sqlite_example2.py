@@ -55,12 +55,12 @@ if os.path.exists(db_file):
 
 create_table_departments_sql = """ CREATE TABLE [Departments] (
     [DepartmentId] INTEGER  NOT NULL PRIMARY KEY,
-    [DepartmentName] NVARCHAR(50)  NULL
+    [DepartmentName] TEXT  NULL
 ); """
 
 create_table_students_sql = """ CREATE TABLE [Students] (
     [StudentId] INTEGER  PRIMARY KEY NOT NULL,
-    [StudentName] NVARCHAR(50) NOT NULL,
+    [StudentName] TEXT NOT NULL,
     [DepartmentId] INTEGER  NULL,
     [DateOfBirth] DATE NULL,
     FOREIGN KEY(DepartmentId) REFERENCES Departments(DepartmentId)
